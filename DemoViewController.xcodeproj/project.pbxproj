@@ -39,6 +39,7 @@
 		DB66F8D6248DE5E400C18B4F /* SubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
 		DB66F8D9248DE62A00C18B4F /* DemoViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoViewController+Extension.h"; sourceTree = "<group>"; };
 		DB66F8DA248DE62A00C18B4F /* DemoViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DemoViewController+Extension.m"; sourceTree = "<group>"; };
+		DB66F8DE248F5AFD00C18B4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 			children = (
 				DB66F8B5248DE59700C18B4F /* DemoViewController */,
 				DB66F8B4248DE59700C18B4F /* Products */,
+				DB66F8DD248F5AFD00C18B4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +92,14 @@
 				DB66F8DA248DE62A00C18B4F /* DemoViewController+Extension.m */,
 			);
 			path = DemoViewController;
+			sourceTree = "<group>";
+		};
+		DB66F8DD248F5AFD00C18B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB66F8DE248F5AFD00C18B4F /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DemoViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DemoViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
