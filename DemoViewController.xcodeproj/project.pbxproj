@@ -8,24 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8B7248DE59700C18B4F /* AppDelegate.m */; };
-		DB66F8BB248DE59700C18B4F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8BA248DE59700C18B4F /* SceneDelegate.m */; };
 		DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8BF248DE59800C18B4F /* Main.storyboard */; };
 		DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8C2248DE59900C18B4F /* Assets.xcassets */; };
 		DB66F8C6248DE59900C18B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8C4248DE59900C18B4F /* LaunchScreen.storyboard */; };
 		DB66F8C9248DE59900C18B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8C8248DE59900C18B4F /* main.m */; };
 		DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8D0248DE5D500C18B4F /* DemoViewController.m */; };
 		DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */; };
-		DB66F8D7248DE5E400C18B4F /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8D5248DE5E400C18B4F /* SubViewController.m */; };
-		DB66F8D8248DE5E400C18B4F /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8D6248DE5E400C18B4F /* SubViewController.xib */; };
-		DB66F8DB248DE62A00C18B4F /* DemoViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8DA248DE62A00C18B4F /* DemoViewController+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB66F8B3248DE59700C18B4F /* DemoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB66F8B6248DE59700C18B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB66F8B7248DE59700C18B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB66F8B9248DE59700C18B4F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DB66F8BA248DE59700C18B4F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DB66F8C0248DE59800C18B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB66F8C2248DE59900C18B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB66F8C5248DE59900C18B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,11 +28,6 @@
 		DB66F8CF248DE5D500C18B4F /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		DB66F8D0248DE5D500C18B4F /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
-		DB66F8D4248DE5E400C18B4F /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
-		DB66F8D5248DE5E400C18B4F /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
-		DB66F8D6248DE5E400C18B4F /* SubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
-		DB66F8D9248DE62A00C18B4F /* DemoViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoViewController+Extension.h"; sourceTree = "<group>"; };
-		DB66F8DA248DE62A00C18B4F /* DemoViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DemoViewController+Extension.m"; sourceTree = "<group>"; };
 		DB66F8DE248F5AFD00C18B4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,8 +64,6 @@
 			children = (
 				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
 				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
-				DB66F8B9248DE59700C18B4F /* SceneDelegate.h */,
-				DB66F8BA248DE59700C18B4F /* SceneDelegate.m */,
 				DB66F8BF248DE59800C18B4F /* Main.storyboard */,
 				DB66F8C2248DE59900C18B4F /* Assets.xcassets */,
 				DB66F8C4248DE59900C18B4F /* LaunchScreen.storyboard */,
@@ -85,11 +72,6 @@
 				DB66F8CF248DE5D500C18B4F /* DemoViewController.h */,
 				DB66F8D0248DE5D500C18B4F /* DemoViewController.m */,
 				DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */,
-				DB66F8D4248DE5E400C18B4F /* SubViewController.h */,
-				DB66F8D5248DE5E400C18B4F /* SubViewController.m */,
-				DB66F8D6248DE5E400C18B4F /* SubViewController.xib */,
-				DB66F8D9248DE62A00C18B4F /* DemoViewController+Extension.h */,
-				DB66F8DA248DE62A00C18B4F /* DemoViewController+Extension.m */,
 			);
 			path = DemoViewController;
 			sourceTree = "<group>";
@@ -163,7 +145,6 @@
 				DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */,
 				DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */,
 				DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */,
-				DB66F8D8248DE5E400C18B4F /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,11 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB66F8D7248DE5E400C18B4F /* SubViewController.m in Sources */,
 				DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */,
 				DB66F8C9248DE59900C18B4F /* main.m in Sources */,
-				DB66F8DB248DE62A00C18B4F /* DemoViewController+Extension.m in Sources */,
-				DB66F8BB248DE59700C18B4F /* SceneDelegate.m in Sources */,
 				DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

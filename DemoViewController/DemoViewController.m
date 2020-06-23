@@ -8,7 +8,6 @@
 
 
 #import "DemoViewController.h"
-#import "SubViewController.h"
 
 //typedef
 typedef DemoViewController * DemoVCPoint;
@@ -39,8 +38,8 @@ DemoViewController *g_demoVC = nil;
     [super viewDidLoad];
     
     //显式类型转换
-    SubViewController* subDemoVC = [[SubViewController alloc] init];
-    DemoViewController *demoVC = (DemoViewController *)subDemoVC;
+    UIViewController *viewController = self;
+    DemoViewController *demoVC = (DemoViewController *)viewController;
     
     //类型参数
     NSMutableArray<DemoViewController *> *demoVCs = [NSMutableArray array];
