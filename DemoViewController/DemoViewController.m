@@ -14,6 +14,8 @@ typedef DemoViewController * DemoVCPoint;
 
 #define GetDemoVC [DemoViewController getDemoVC]
 
+#define runSelector [NSObject performSelector:@selector( get :  age:)]
+
 //全局变量
 DemoViewController *g_demoVC = nil;
 
@@ -57,7 +59,8 @@ DemoViewController *g_demoVC = nil;
     DemoViewController *demoVC = nil;
     //宏 使用
     GetDemoVC;
-
+    
+    runSelector;
 }
 
 //函数参数
@@ -70,7 +73,9 @@ DemoViewController *g_demoVC = nil;
     return nil;
 }
 
-
+- (void)get:(NSString *)name age:(NSInteger)age {
+    
+}
 
 
 @end
