@@ -8,10 +8,11 @@
 
 
 #import "DemoViewController.h"
+#import "AppDelegate.h"
 
 //typedef
 
-typedef NSMutableArray<NSDictionary<NSArray<DemoViewController *>*,DemoViewController *> *> *   MyArray;
+typedef NSMutableArray<NSDictionary<NSArray<DemoViewController *>*, AppDelegate *> *> *   MyArray;
 
 typedef DemoViewController * DemoVCPoint;
 
