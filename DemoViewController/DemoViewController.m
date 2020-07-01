@@ -8,10 +8,19 @@
 
 
 #import "DemoViewController.h"
-#import "AppDelegate.h"
+
 
 //typedef
 
+@protocol TestProtocol2 <NSObject>
+
+@end
+
+@protocol TestProtocol <NSObject>
+
+
+
+@end
 
 typedef NSDictionary<DemoViewController *, AppDelegate *> MyArrayTmp;
 
@@ -40,6 +49,16 @@ DemoViewController *g_demoVC = nil;
 //类型参数
 @property (nonatomic, strong) NSDictionary <NSString*, DemoViewController *> *demoDict;
 @property (strong, nonatomic) IBOutlet UIViewController *xibDemoVC;
+
+@property (nonatomic, strong) NSString *testName;///< synthesize 不指定名字
+@property (nonatomic, strong) AppDelegate*__nonnull delegate; //无间隔，
+@property (nonatomic, strong) NSString *  _Nonnull name; //属性变量测试代码,有关键字
+@property (nonatomic, strong) NSString      * __null_unspecified      sex; //属性变量混淆e：测试代码 无间隔。
+@property (nonatomic, strong) NSString *age; //属性变量测试代码
+@property (nonatomic, strong) NSMutableArray<NSDictionary<NSArray<AppDelegate *>*,NSString *> *> *array ;//类型多参数测试代码
+@property (nonatomic, strong) NSMutableArray   <    NSDictionary < NSArray< AppDelegate *   >   * ,NSString * > * >    *     testArray2 ;//类型多参数测试代码,任意空格
+@property (nonatomic, strong) NSString <TestProtocol2, TestProtocol> *testP ; //类型协议引用 测试代码
+@property (nonatomic, strong) NSString  <     TestProtocol2, TestProtocol >  *    testP2 ; //类型协议引用 测试代码 任意间隔。
 
 @end
 
