@@ -10,7 +10,12 @@
 #import "DemoViewController.h"
 
 //typedef
+
+typedef NSMutableArray<NSDictionary<NSArray<DemoViewController *>*,DemoViewController *> *> *   MyArray;
+
 typedef DemoViewController * DemoVCPoint;
+
+
 
 #define GetDemoVC [DemoViewController getDemoVC]
 
