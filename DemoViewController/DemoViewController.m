@@ -14,6 +14,9 @@
 
 
 typedef NSDictionary<DemoViewController *, AppDelegate *> MyArrayTmp;
+
+typedef AppDelegate MYappdelegate;
+
 typedef NSMutableArray<NSDictionary<NSArray<DemoViewController *>*, AppDelegate *> *> *   MyArray;
 
 typedef DemoViewController * DemoVCPoint;
