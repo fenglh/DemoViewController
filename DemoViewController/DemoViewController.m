@@ -65,6 +65,16 @@ DemoViewController *g_demoVC = nil;
 //类定义
 @implementation DemoViewController
 
+@synthesize name     =      __name /*1234*/
+
+; //合成器、实例变量测试代码
+
+@synthesize     testName ; ///
+
+
+@synthesize sex ; //合成器、实例变量测试代码，不指定实例变量
+
+@dynamic age; //属性测试代码
 
 - (void)viewDidLoad {
     [super viewDidLoad];
