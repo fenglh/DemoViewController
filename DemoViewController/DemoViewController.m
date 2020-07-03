@@ -22,7 +22,7 @@
 
 @end
 
-typedef NSDictionary<DemoViewController *, AppDelegate *> MyArrayTmp;
+typedef __strong NSDictionary<DemoViewController *, AppDelegate *>  MyArrayTmp;
 
 typedef AppDelegate MYappdelegate;
 
@@ -30,6 +30,10 @@ typedef NSMutableArray<NSDictionary<NSArray<DemoViewController *>*, AppDelegate 
 
 typedef DemoViewController * DemoVCPoint;
 
+
+typedef __strong DemoViewController LHAppdelegate; //修饰符、oc对象类型
+
+typedef __strong DemoViewController*  __null_unspecified LHAppdelegate2; //多修饰符、oc对象指针类型
 
 
 #define GetDemoVC [DemoViewController getDemoVC]
@@ -89,7 +93,7 @@ DemoViewController *g_demoVC = nil;
      
     
     //类型参数
-    NSMutableArray<DemoViewController *> * __null_unspecified demoVCs = [NSMutableArray array];
+    __strong NSMutableArray<DemoViewController *> * __null_unspecified demoVCs = [NSMutableArray array];
     
     
     DemoViewController *demoVC = (DemoViewController *)viewController;
