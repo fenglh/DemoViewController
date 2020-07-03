@@ -80,11 +80,19 @@ DemoViewController *g_demoVC = nil;
     [super viewDidLoad];
     
     //显式类型转换
-    UIViewController *viewController = self;
-    DemoViewController *demoVC = (DemoViewController *)viewController;
+    __strong UIViewController *viewController = self;
+    
+    AppDelegate * (^myBlock)(AppDelegate *delegate ) = ^(AppDelegate *delegate){
+        AppDelegate *d = [AppDelegate new];
+        return d;
+    };
+     
     
     //类型参数
-    NSMutableArray<DemoViewController *> *demoVCs = [NSMutableArray array];
+    NSMutableArray<DemoViewController *> * __null_unspecified demoVCs = [NSMutableArray array];
+    
+    
+    DemoViewController *demoVC = (DemoViewController *)viewController;
     
     //类方法消息接受者
     [DemoViewController new];
