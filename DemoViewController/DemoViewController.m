@@ -86,8 +86,8 @@ DemoViewController *g_demoVC = nil;
     //显式类型转换
     __strong UIViewController *viewController = self;
     
-    AppDelegate * (^myBlock)(AppDelegate *delegate ) = ^(AppDelegate *delegate){
-        AppDelegate *d = [AppDelegate new];
+    DemoViewController * (^myBlockkkkk)(AppDelegate *delegate ) = ^(AppDelegate *delegate){
+        DemoViewController *d = [DemoViewController new];
         return d;
     };
      
