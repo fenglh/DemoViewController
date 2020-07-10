@@ -133,7 +133,7 @@ DemoViewController *g_demoVC = nil;
     
 }
 
-- (void)testBBBBBBBBB:(id(^)(AppDelegate arg1,id arg2))argBlock {
+- (void)testBBBBBBBBB:(id(^)(AppDelegate *arg1,id arg2))argBlock {
     
 }
 
