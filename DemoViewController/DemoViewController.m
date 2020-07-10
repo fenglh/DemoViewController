@@ -129,5 +129,9 @@ DemoViewController *g_demoVC = nil;
     
 }
 
+- (void)testaaaa:(AppDelegate *)delegate demo:(DemoViewController *)demo {
+    
+}
+
 
 @end
