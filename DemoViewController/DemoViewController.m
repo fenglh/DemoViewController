@@ -83,6 +83,10 @@ DemoViewController *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //测试协议表达式
+    [self.testP2 conformsToProtocol:@protocol(TestProtocol)];
+    [self.testP2 conformsToProtocol:@protocol(    TestProtocol     )]; //任意空格ß
+    
     //显式类型转换
     __strong UIViewController *viewController = self;
     
