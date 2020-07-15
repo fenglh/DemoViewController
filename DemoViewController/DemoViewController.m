@@ -36,6 +36,7 @@ typedef __strong DemoViewController LHAppdelegate; //修饰符、oc对象类型
 typedef __strong DemoViewController*  __null_unspecified LHAppdelegate2; //多修饰符、oc对象指针类型
 
 
+#define AtProtocol @protocol(    TestProtocol     )
 #define GetDemoVC [DemoViewController getDemoVC]
 
 #define runSelector [NSObject performSelector:@selector( get :  age:)]
@@ -86,6 +87,8 @@ DemoViewController *g_demoVC = nil;
     //测试协议表达式
     [self.testP2 conformsToProtocol:@protocol(TestProtocol)];
     [self.testP2 conformsToProtocol:@protocol(    TestProtocol     )]; //任意空格ß
+    
+    [self.testP2 conformsToProtocol:AtProtocol]; //任意空格ß
     
     //显式类型转换
     __strong UIViewController *viewController = self;
