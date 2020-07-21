@@ -17,7 +17,7 @@
 @end
 
 @protocol TestProtocol <NSObject>
-
+- (void)testProtocolMethod;
 
 
 @end
@@ -86,6 +86,8 @@ DemoViewController *g_demoVC = nil;
     
     //测试
     
+    id <TestProtocol> obj;
+    [obj testProtocolMethod]; //调用协议方法
     [self get:@"111" age:22];//接受者class 是self
     [[self class] getDemoVC];//接受者class 是表达式
 
