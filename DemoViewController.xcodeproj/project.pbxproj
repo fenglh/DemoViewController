@@ -14,9 +14,13 @@
 		DB66F8C9248DE59900C18B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8C8248DE59900C18B4F /* main.m */; };
 		DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8D0248DE5D500C18B4F /* DemoViewController.m */; };
 		DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */; };
+		DB8B68F924BEFE8400C1B34A /* Obfuscator_config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */; };
+		DB8B68FB24C03D4100C1B34A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */; };
+		DBF09A3924C6E70800372612 /* SubDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF09A3824C6E70800372612 /* SubDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9C515A9224A2F49C7F5DBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB66F8B3248DE59700C18B4F /* DemoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB66F8B6248DE59700C18B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB66F8B7248DE59700C18B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,10 @@
 		DB66F8D0248DE5D500C18B4F /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		DB66F8DE248F5AFD00C18B4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Obfuscator_config.xcconfig; sourceTree = "<group>"; };
+		DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DBF09A3724C6E70800372612 /* SubDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubDemoViewController.h; sourceTree = "<group>"; };
+		DBF09A3824C6E70800372612 /* SubDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8B68FB24C03D4100C1B34A /* libstdc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,7 @@
 		DB66F8AA248DE59700C18B4F = {
 			isa = PBXGroup;
 			children = (
+				DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */,
 				DB66F8B5248DE59700C18B4F /* DemoViewController */,
 				DB66F8B4248DE59700C18B4F /* Products */,
 				DB66F8DD248F5AFD00C18B4F /* Frameworks */,
@@ -72,6 +82,8 @@
 				DB66F8CF248DE5D500C18B4F /* DemoViewController.h */,
 				DB66F8D0248DE5D500C18B4F /* DemoViewController.m */,
 				DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */,
+				DBF09A3724C6E70800372612 /* SubDemoViewController.h */,
+				DBF09A3824C6E70800372612 /* SubDemoViewController.m */,
 			);
 			path = DemoViewController;
 			sourceTree = "<group>";
@@ -79,7 +91,9 @@
 		DB66F8DD248F5AFD00C18B4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */,
 				DB66F8DE248F5AFD00C18B4F /* UIKit.framework */,
+				2E9C515A9224A2F49C7F5DBE /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +157,7 @@
 			files = (
 				DB66F8C6248DE59900C18B4F /* LaunchScreen.storyboard in Resources */,
 				DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */,
+				DB8B68F924BEFE8400C1B34A /* Obfuscator_config.xcconfig in Resources */,
 				DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */,
 				DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */,
 			);
@@ -155,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF09A3924C6E70800372612 /* SubDemoViewController.m in Sources */,
 				DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */,
 				DB66F8C9248DE59900C18B4F /* main.m in Sources */,
 				DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */,
@@ -185,6 +201,7 @@
 /* Begin XCBuildConfiguration section */
 		DB66F8CA248DE59900C18B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -297,13 +314,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DemoViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LLVM_LTO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = banmalu.DemoViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,13 +335,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DemoViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LLVM_LTO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = banmalu.DemoViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

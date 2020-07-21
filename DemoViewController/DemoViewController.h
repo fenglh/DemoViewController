@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *roomid; //类的属性变量混淆
 @property (nonatomic, strong) NSMutableArray<NSDictionary<NSArray<AppDelegate *>*,NSString *> *> *arrayInterface ;//类型多参数测试代码
 
+
+- (void)get:(NSString *)name age:(NSInteger)age;
+
 @end
 
 NS_ASSUME_NONNULL_END
