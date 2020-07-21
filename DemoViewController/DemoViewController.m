@@ -84,6 +84,10 @@ DemoViewController *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //测试
+    [self get:@"111" age:22];//接受者class 是self
+    [[self class] getDemoVC];//接受者class 是表达式
+    
     //测试协议表达式
     [self.testP2 conformsToProtocol:@protocol(TestProtocol)];
     [self.testP2 conformsToProtocol:@protocol(    TestProtocol     )]; //任意空格ß
