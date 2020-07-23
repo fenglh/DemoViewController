@@ -41,6 +41,22 @@ typedef __strong DemoViewController*  __null_unspecified LHAppdelegate2; //多�
 
 #define runSelector [NSObject performSelector:@selector( get :  age:)]
 
+//宏混淆测试代码：
+#define sendMessage(msg) \
+{\
+NSMutableArray<NSDictionary<NSArray<AppDelegate *>*,NSString *> *> *array ;\
+[AppDelegate new];\
+[NSObject performSelector:@selector( baseProtocolClassMethod )];\
+\
+self.name = @"789";\
+\
+\
+\
+\
+__name = @"798"; \
+NSLog(@"%@,%@", array,msg);\
+}
+
 //全局变量
 DemoViewController *g_demoVC = nil;
 
@@ -84,6 +100,7 @@ DemoViewController *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    sendMessage(@"hello world"); //测试宏函数
     //测试
     
     id <TestProtocol> obj;
