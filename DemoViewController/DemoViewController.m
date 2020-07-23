@@ -103,7 +103,15 @@ DemoViewController *g_demoVC = nil;
     sendMessage(@"hello world"); //测试宏函数
     //测试
     
-    id <TestProtocol> obj;
+    id <
+    \
+    \
+    TestProtocol> obj;
+    \
+    \
+    \
+    __name = @"123123";
+    
     [obj testProtocolMethod]; //调用协议方法
     [self get:@"111" age:22];//接受者class 是self
     [[self class] getDemoVC];//接受者class 是表达式
