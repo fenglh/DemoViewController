@@ -15,6 +15,7 @@
 		DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8D0248DE5D500C18B4F /* DemoViewController.m */; };
 		DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */; };
 		DB8B68FB24C03D4100C1B34A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */; };
+		DBA7772B24C933330091461E /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA7772A24C933330091461E /* NSArray+Extension.m */; };
 		DBF09A3924C6E70800372612 /* SubDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF09A3824C6E70800372612 /* SubDemoViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		DB66F8DE248F5AFD00C18B4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DBA7772924C933330091461E /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		DBA7772A24C933330091461E /* NSArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
 		DBF09A3724C6E70800372612 /* SubDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubDemoViewController.h; sourceTree = "<group>"; };
 		DBF09A3824C6E70800372612 /* SubDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +84,8 @@
 				DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */,
 				DBF09A3724C6E70800372612 /* SubDemoViewController.h */,
 				DBF09A3824C6E70800372612 /* SubDemoViewController.m */,
+				DBA7772924C933330091461E /* NSArray+Extension.h */,
+				DBA7772A24C933330091461E /* NSArray+Extension.m */,
 			);
 			path = DemoViewController;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF09A3924C6E70800372612 /* SubDemoViewController.m in Sources */,
+				DBA7772B24C933330091461E /* NSArray+Extension.m in Sources */,
 				DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */,
 				DB66F8C9248DE59900C18B4F /* main.m in Sources */,
 				DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */,
