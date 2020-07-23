@@ -14,7 +14,6 @@
 		DB66F8C9248DE59900C18B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8C8248DE59900C18B4F /* main.m */; };
 		DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8D0248DE5D500C18B4F /* DemoViewController.m */; };
 		DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */; };
-		DB8B68F924BEFE8400C1B34A /* Obfuscator_config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */; };
 		DB8B68FB24C03D4100C1B34A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */; };
 		DBF09A3924C6E70800372612 /* SubDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF09A3824C6E70800372612 /* SubDemoViewController.m */; };
 /* End PBXBuildFile section */
@@ -33,7 +32,6 @@
 		DB66F8D0248DE5D500C18B4F /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		DB66F8DE248F5AFD00C18B4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Obfuscator_config.xcconfig; sourceTree = "<group>"; };
 		DB8B68FA24C03D4100C1B34A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		DBF09A3724C6E70800372612 /* SubDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubDemoViewController.h; sourceTree = "<group>"; };
 		DBF09A3824C6E70800372612 /* SubDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubDemoViewController.m; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 		DB66F8AA248DE59700C18B4F = {
 			isa = PBXGroup;
 			children = (
-				DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */,
 				DB66F8B5248DE59700C18B4F /* DemoViewController */,
 				DB66F8B4248DE59700C18B4F /* Products */,
 				DB66F8DD248F5AFD00C18B4F /* Frameworks */,
@@ -157,7 +154,6 @@
 			files = (
 				DB66F8C6248DE59900C18B4F /* LaunchScreen.storyboard in Resources */,
 				DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */,
-				DB8B68F924BEFE8400C1B34A /* Obfuscator_config.xcconfig in Resources */,
 				DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */,
 				DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */,
 			);
@@ -201,7 +197,6 @@
 /* Begin XCBuildConfiguration section */
 		DB66F8CA248DE59900C18B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB8B68F824BEFE8400C1B34A /* Obfuscator_config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
