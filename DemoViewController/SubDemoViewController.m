@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [super get:@"666" age:99];//接受者类是super
+    //
 }
 
 /*

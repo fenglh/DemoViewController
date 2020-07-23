@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB219A9824C97FC60072D03C /* NSObject+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = DB219A9224C97FC50072D03C /* NSObject+AXNetworkingMethods.m */; };
+		DB219A9924C97FC60072D03C /* NSDictionary+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = DB219A9324C97FC50072D03C /* NSDictionary+AXNetworkingMethods.m */; };
+		DB219A9A24C97FC60072D03C /* NSMutableString+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = DB219A9524C97FC50072D03C /* NSMutableString+AXNetworkingMethods.m */; };
+		DB219A9D24C97FDD0072D03C /* NSArray+AXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = DB219A9C24C97FDD0072D03C /* NSArray+AXNetworkingMethods.m */; };
 		DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8B7248DE59700C18B4F /* AppDelegate.m */; };
 		DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8BF248DE59800C18B4F /* Main.storyboard */; };
 		DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8C2248DE59900C18B4F /* Assets.xcassets */; };
@@ -21,6 +25,14 @@
 
 /* Begin PBXFileReference section */
 		2E9C515A9224A2F49C7F5DBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB219A9224C97FC50072D03C /* NSObject+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AXNetworkingMethods.m"; sourceTree = "<group>"; };
+		DB219A9324C97FC50072D03C /* NSDictionary+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AXNetworkingMethods.m"; sourceTree = "<group>"; };
+		DB219A9424C97FC50072D03C /* NSMutableString+AXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AXNetworkingMethods.h"; sourceTree = "<group>"; };
+		DB219A9524C97FC50072D03C /* NSMutableString+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+AXNetworkingMethods.m"; sourceTree = "<group>"; };
+		DB219A9624C97FC60072D03C /* NSDictionary+AXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AXNetworkingMethods.h"; sourceTree = "<group>"; };
+		DB219A9724C97FC60072D03C /* NSObject+AXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AXNetworkingMethods.h"; sourceTree = "<group>"; };
+		DB219A9B24C97FDD0072D03C /* NSArray+AXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AXNetworkingMethods.h"; sourceTree = "<group>"; };
+		DB219A9C24C97FDD0072D03C /* NSArray+AXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AXNetworkingMethods.m"; sourceTree = "<group>"; };
 		DB66F8B3248DE59700C18B4F /* DemoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB66F8B6248DE59700C18B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB66F8B7248DE59700C18B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +64,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB219A9124C97FB20072D03C /* category */ = {
+			isa = PBXGroup;
+			children = (
+				DB219A9B24C97FDD0072D03C /* NSArray+AXNetworkingMethods.h */,
+				DB219A9C24C97FDD0072D03C /* NSArray+AXNetworkingMethods.m */,
+				DB219A9624C97FC60072D03C /* NSDictionary+AXNetworkingMethods.h */,
+				DB219A9324C97FC50072D03C /* NSDictionary+AXNetworkingMethods.m */,
+				DB219A9424C97FC50072D03C /* NSMutableString+AXNetworkingMethods.h */,
+				DB219A9524C97FC50072D03C /* NSMutableString+AXNetworkingMethods.m */,
+				DB219A9724C97FC60072D03C /* NSObject+AXNetworkingMethods.h */,
+				DB219A9224C97FC50072D03C /* NSObject+AXNetworkingMethods.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 		DB66F8AA248DE59700C18B4F = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +99,7 @@
 		DB66F8B5248DE59700C18B4F /* DemoViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DB219A9124C97FB20072D03C /* category */,
 				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
 				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
 				DB66F8BF248DE59800C18B4F /* Main.storyboard */,
@@ -172,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF09A3924C6E70800372612 /* SubDemoViewController.m in Sources */,
+				DB219A9924C97FC60072D03C /* NSDictionary+AXNetworkingMethods.m in Sources */,
+				DB219A9A24C97FC60072D03C /* NSMutableString+AXNetworkingMethods.m in Sources */,
 				DBA7772B24C933330091461E /* NSArray+Extension.m in Sources */,
 				DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */,
+				DB219A9824C97FC60072D03C /* NSObject+AXNetworkingMethods.m in Sources */,
 				DB66F8C9248DE59900C18B4F /* main.m in Sources */,
 				DB66F8D2248DE5D500C18B4F /* DemoViewController.m in Sources */,
+				DB219A9D24C97FDD0072D03C /* NSArray+AXNetworkingMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
