@@ -108,6 +108,7 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSString *str0 = self.cry; //测试是否同时触发隐式消息表达式、propertyRefExpr
     NSString *str  = self.protocolName; //使用dot的方式来调用协议方法 ,隐式消息表达式
     
     NSString *str2 = self.myAddress;//隐式消息表达式
