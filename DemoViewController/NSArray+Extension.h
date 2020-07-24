@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (Extension)
-- (void)testExtensionMethod;
+@interface NSArray (Supply)
+- (void)wish;
 @end
 
 NS_ASSUME_NONNULL_END

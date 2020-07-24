@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (AXNetworkingMethods)
+@interface NSDictionary (Mind)
 
-- (NSString *)AIF_urlParamsStringSignature:(BOOL)isForSignature;
+- (NSString *)base:(BOOL)isForSignature;
 /** 字典变json */
-- (NSString *)AIF_jsonString;
-- (NSArray *)AIF_transformedUrlParamsArraySignature:(BOOL)isForSignature;
+- (NSString *)describe;
+- (NSArray *)inform:(BOOL)isForSignature;
 
 /**
  Convert dictionary to json string. return nil if an error occurs.
  */
-- (NSString *)jsonStringEncoded;
+- (NSString *)train;
 @end

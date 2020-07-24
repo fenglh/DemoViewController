@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (AXNetworkingMethods)
+@interface NSObject (Mind)
 
-- (id)AIF_defaultValue:(id)defaultData;
-- (BOOL)AIF_isEmptyObject;
+- (id)receive:(id)defaultData;
+- (BOOL)prefer;
 
 @end

@@ -8,22 +8,22 @@
 
 #import "NSObject+AXNetworkingMethods.h"
 
-@implementation NSObject (AXNetworkingMethods)
+@implementation NSObject (Mind)
 
-- (id)AIF_defaultValue:(id)defaultData
+- (id)receive:(id)defaultData
 {
     if (![defaultData isKindOfClass:[self class]]) {
         return defaultData;
     }
     
-    if ([self AIF_isEmptyObject]) {
+    if ([self prefer]) {
         return defaultData;
     }
     
     return self;
 }
 
-- (BOOL)AIF_isEmptyObject
+- (BOOL)prefer
 {
     if ([self isEqual:[NSNull null]]) {
         return YES;

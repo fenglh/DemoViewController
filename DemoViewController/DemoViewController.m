@@ -12,90 +12,90 @@
 
 //typedef
 
-@protocol TestProtocol2 <NSObject>
+@protocol Discover <NSObject>
 
 @end
 
-@protocol TestProtocol <NSObject>
-- (void)testProtocolMethod;
+@protocol Admit <NSObject>
+- (void)allow;
 
 
 @end
 
-typedef __strong NSDictionary<DemoViewController *, AppDelegate *>  MyArrayTmp;
+typedef __strong NSDictionary<Clear *, Succeed *>  MyArrayTmp;
 
-typedef AppDelegate MYappdelegate;
+typedef Succeed MYappdelegate;
 
-typedef NSMutableArray<NSDictionary<NSArray<DemoViewController *>*, AppDelegate *> *> *   MyArray;
+typedef NSMutableArray<NSDictionary<NSArray<Clear *>*, Succeed *> *> *   MyArray;
 
-typedef DemoViewController * DemoVCPoint;
-
-
-typedef __strong DemoViewController LHAppdelegate; //修饰符、oc对象类型
-
-typedef __strong DemoViewController*  __null_unspecified LHAppdelegate2; //多修饰符、oc对象指针类型
+typedef Clear * DemoVCPoint;
 
 
-#define AtProtocol @protocol(    TestProtocol     )
-#define GetDemoVC [DemoViewController getDemoVC]
+typedef __strong Clear LHAppdelegate; //修饰符、oc对象类型
 
-#define runSelector [NSObject performSelector:@selector( get :  age:)]
+typedef __strong Clear*  __null_unspecified LHAppdelegate2; //多修饰符、oc对象指针类型
+
+
+#define AtProtocol @protocol(    Admit     )
+#define GetDemoVC [Clear sound]
+
+#define runSelector [NSObject performSelector:@selector(give:see:)]
 
 //宏混淆测试代码：
 #define sendMessage(msg) \
 {\
-NSMutableArray<NSDictionary<NSArray<AppDelegate *>*,NSString *> *> *array ;\
-[AppDelegate new];\
+NSMutableArray<NSDictionary<NSArray<Succeed *>*,NSString *> *> *array ;\
+[Succeed new];\
 [NSObject performSelector:@selector( baseProtocolClassMethod )];\
 \
-self.name = @"789";\
+self.replace = @"789";\
 \
 \
 \
 \
-__name = @"798"; \
+_replace = @"798"; \
 NSLog(@"%@,%@", array,msg);\
 }
 
 //全局变量
-DemoViewController *g_demoVC = nil;
+Clear *g_demoVC = nil;
 
 //扩展（匿名分类）
-@interface DemoViewController ()
+@interface Clear ()
 {
-    DemoViewController *_demoVC; //实例变量
+    Clear *_notice; //实例变量
 }
 //属性变量
-@property (nonatomic, strong) DemoViewController *demoVC;///< 属性
+@property (nonatomic, strong) Clear *notice;///< 属性
 //类型参数
-@property (nonatomic, strong) NSDictionary <NSString*, DemoViewController *> *demoDict;
-@property (strong, nonatomic) IBOutlet UIViewController *xibDemoVC;
+@property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
+@property (strong, nonatomic) IBOutlet UIViewController *tell;
 
-@property (nonatomic, strong) NSString *testName;///< synthesize 不指定名字
-@property (nonatomic, strong) AppDelegate*__nonnull delegate; //无间隔，
-@property (nonatomic, strong) NSString *  _Nonnull name; //属性变量测试代码,有关键字
-@property (nonatomic, strong) NSString      * __null_unspecified      sex; //属性变量混淆e：测试代码 无间隔。
-@property (nonatomic, strong) NSString *age; //属性变量测试代码
-@property (nonatomic, strong) NSMutableArray<NSDictionary<NSArray<AppDelegate *>*,NSString *> *> *array ;//类型多参数测试代码
-@property (nonatomic, strong) NSMutableArray   <    NSDictionary < NSArray< AppDelegate *   >   * ,NSString * > * >    *     testArray2 ;//类型多参数测试代码,任意空格
-@property (nonatomic, strong) NSString <TestProtocol2, TestProtocol> *testP ; //类型协议引用 测试代码
-@property (nonatomic, strong) NSString  <     TestProtocol2, TestProtocol >  *    testP2 ; //类型协议引用 测试代码 任意间隔。
+@property (nonatomic, strong) NSString *settle;///< synthesize 不指定名字
+@property (nonatomic, strong) Succeed*__nonnull remove; //无间隔，
+@property (nonatomic, strong) NSString *  _Nonnull replace; //属性变量测试代码,有关键字
+@property (nonatomic, strong) NSString      * __null_unspecified      wait; //属性变量混淆e：测试代码 无间隔。
+@property (nonatomic, strong) NSString *should; //属性变量测试代码
+@property (nonatomic, strong) NSMutableArray<NSDictionary<NSArray<Succeed *>*,NSString *> *> *suppose ;//类型多参数测试代码
+@property (nonatomic, strong) NSMutableArray   <    NSDictionary < NSArray< Succeed *   >   * ,NSString * > * >    *     occur ;//类型多参数测试代码,任意空格
+@property (nonatomic, strong) NSString <Discover, Admit> *sit ; //类型协议引用 测试代码
+@property (nonatomic, strong) NSString  <     Discover, Admit >  *    check ; //类型协议引用 测试代码 任意间隔。
 
 @end
 
 //类定义
-@implementation DemoViewController
+@implementation Clear
 
-@synthesize name     =      __name /*1234*/
+@synthesize replace     =      _replace /*1234*/
 
 ; //合成器、实例变量测试代码
 
-@synthesize     testName ; ///
+@synthesize     settle ; ///
 
 
-@synthesize sex ; //合成器、实例变量测试代码，不指定实例变量
+@synthesize wait ; //合成器、实例变量测试代码，不指定实例变量
 
-@dynamic age; //属性测试代码
+@dynamic should; //属性测试代码
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -106,49 +106,49 @@ DemoViewController *g_demoVC = nil;
     id <
     \
     \
-    TestProtocol> obj;
+    Admit> obj;
     \
     \
     \
-    __name = @"123123";
+    _replace = @"123123";
     
-    [obj testProtocolMethod]; //调用协议方法
-    [self get:@"111" age:22];//接受者class 是self
-    [[self class] getDemoVC];//接受者class 是表达式
+    [obj allow]; //调用协议方法
+    [self give:@"111" see:22];//接受者class 是self
+    [[self class] sound];//接受者class 是表达式
 
     
     //测试协议表达式
-    [self.testP2 conformsToProtocol:@protocol(TestProtocol)];
-    [self.testP2 conformsToProtocol:@protocol(    TestProtocol     )]; //任意空格ß
+    [self.check conformsToProtocol:@protocol(Admit)];
+    [self.check conformsToProtocol:@protocol(    Admit     )]; //任意空格ß
     
-    [self.testP2 conformsToProtocol:AtProtocol]; //任意空格ß
+    [self.check conformsToProtocol:AtProtocol]; //任意空格ß
     
     //显式类型转换
     __strong UIViewController *viewController = self;
     
-    DemoViewController * (^myBlockkkkk)(AppDelegate *delegate ) = ^(AppDelegate *delegate){
-        DemoViewController *d = [DemoViewController new];
+    Clear * (^myBlockkkkk)(Succeed *delegate ) = ^(Succeed *delegate){
+        Clear *d = [Clear new];
         return d;
     };
      
     
     //类型参数
-    __strong NSMutableArray<DemoViewController *> * __null_unspecified demoVCs = [NSMutableArray array];
+    __strong NSMutableArray<Clear *> * __null_unspecified demoVCs = [NSMutableArray array];
     
     
-    DemoViewController *demoVC = (DemoViewController *)viewController;
+    Clear *demoVC = (Clear *)viewController;
     
     //类方法消息接受者
-    [DemoViewController new];
+    [Clear new];
     
     
     //typedef 使用
     DemoVCPoint demoPoint =  nil;
 }
 
-- (void)test {
+- (void)examine {
     //局部变量类型声明
-    DemoViewController *demoVC = nil;
+    Clear *demoVC = nil;
     //宏 使用
     GetDemoVC;
     
@@ -156,24 +156,24 @@ DemoViewController *g_demoVC = nil;
 }
 
 //函数参数
-- (void)setDemoVC:(DemoViewController *)demoVC {
+- (void)setNotice:(Clear *)demoVC {
     
 }
 
 //函数返回
-+ (DemoViewController *)getDemoVC {
++ (Clear *)sound {
     return nil;
 }
 
-- (void)get:(NSString *)name age:(NSInteger)age {
+- (void)give:(NSString *)name see:(NSInteger)age {
     
 }
 
-- (void)testaaaa:(AppDelegate *)delegate demo:(DemoViewController *)demo {
+- (void)teach:(Succeed *)delegate start:(Clear *)demo {
     
 }
 
-- (void)testBBBBBBBBB:(id(^)(AppDelegate *arg1,id arg2))argBlock {
+- (void)count:(id(^)(Succeed *arg1,id arg2))argBlock {
     
 }
 

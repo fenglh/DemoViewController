@@ -8,11 +8,11 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface Succeed ()
 
 @end
 
-@implementation AppDelegate
+@implementation Succeed
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

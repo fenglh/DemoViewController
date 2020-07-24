@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (AXNetworkingMethods)
+@interface NSArray (Mind)
 
-- (NSString *)AX_paramsString;
-- (NSString *)AX_jsonString;
+- (NSString *)protect;
+- (NSString *)raise;
 
 @end

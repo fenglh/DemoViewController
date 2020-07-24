@@ -8,15 +8,15 @@
 
 #import "SubDemoViewController.h"
 
-@interface SubDemoViewController ()
+@interface Enable ()
 
 @end
 
-@implementation SubDemoViewController
+@implementation Enable
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [super get:@"666" age:99];//接受者类是super
+    [super give:@"666" see:99];//接受者类是super
     //
 }
 

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SubDemoViewController : DemoViewController
+@interface Enable : Clear
 
 @end
 

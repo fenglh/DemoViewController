@@ -8,10 +8,10 @@
 
 #import "NSArray+AXNetworkingMethods.h"
 
-@implementation NSArray (AXNetworkingMethods)
+@implementation NSArray (Mind)
 
 /** 字母排序之后形成的参数字符串 */
-- (NSString *)AX_paramsString
+- (NSString *)protect
 {
     NSMutableString *paramString = [[NSMutableString alloc] init];
     
@@ -28,7 +28,7 @@
 }
 
 /** 数组变json */
-- (NSString *)AX_jsonString
+- (NSString *)raise
 {
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:NULL];
     return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];

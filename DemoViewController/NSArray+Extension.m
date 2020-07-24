@@ -8,8 +8,8 @@
 
 #import "NSArray+Extension.h"
 
-@implementation NSArray (Extension)
-- (void)testExtensionMethod {
+@implementation NSArray (Supply)
+- (void)wish {
     
 }
 @end

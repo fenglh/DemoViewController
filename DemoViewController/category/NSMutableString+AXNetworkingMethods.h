@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableString (AXNetworkingMethods)
+@interface NSMutableString (Mind)
 
-- (void)appendURLRequest:(NSURLRequest *)request;
+- (void)deliver:(NSURLRequest *)request;
 
 @end
