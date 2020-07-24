@@ -19,6 +19,8 @@
 @protocol Admit <NSObject>
 - (void)allow;
 
+- (NSString *)protocolName;
+
 
 @end
 
@@ -61,7 +63,7 @@ NSLog(@"%@,%@", array,msg);\
 Clear *g_demoVC = nil;
 
 //扩展（匿名分类）
-@interface Clear ()
+@interface Clear ()<Admit> //引用协议
 {
     Clear *_notice; //实例变量
 }
@@ -106,6 +108,7 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSString *str  = self.protocolName; //使用dot的方式来调用协议方法
     
     NSUInteger minNumb = MIN(10, self.numberValue);//测试宏定义参数
     NSUInteger minNumb2 = MIN(10, _numberValue);//测试宏定义参数
