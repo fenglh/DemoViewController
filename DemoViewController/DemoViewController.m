@@ -108,9 +108,7 @@ Clear *g_demoVC = nil;
 - (void)setNumberValue:(NSUInteger)numberValue {
     
 }
-- (NSUInteger)numberValue {
-    
-}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
