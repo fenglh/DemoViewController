@@ -82,8 +82,8 @@ Clear *g_demoVC = nil;
 @property (nonatomic, strong) NSString  <     Discover, Admit >  *    check ; //类型协议引用 测试代码 任意间隔。
 
 
+@property (nonatomic, assign) NSUInteger numberValue;///测试宏定义参数
 @property (nonatomic, assign, getter=isSSSSSSuccess) BOOL success;///< 指定getter 方法
-
 
 @property (nonatomic, strong, setter=confiMyAddress :) NSString *myAddress;///< 指定getter 方法
 
@@ -105,6 +105,9 @@ Clear *g_demoVC = nil;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    NSUInteger minNumb = MIN(10, self.numberValue);//测试宏定义参数
     
     sendMessage(@"hello world"); //测试宏函数
     //测试
