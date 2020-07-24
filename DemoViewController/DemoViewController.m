@@ -81,6 +81,12 @@ Clear *g_demoVC = nil;
 @property (nonatomic, strong) NSString <Discover, Admit> *sit ; //类型协议引用 测试代码
 @property (nonatomic, strong) NSString  <     Discover, Admit >  *    check ; //类型协议引用 测试代码 任意间隔。
 
+
+@property (nonatomic, assign, getter=isSSSSSSuccess) BOOL success;///< 指定getter 方法
+
+
+@property (nonatomic, strong, setter=confiMyAddress :) NSString *myAddress;///< 指定getter 方法
+
 @end
 
 //类定义
@@ -178,6 +184,15 @@ Clear *g_demoVC = nil;
 }
 
 
+//getter 方法
+- (BOOL)isSSSSSSuccess {
+    return NO;
+}
+
+//setter 方法
+- (void)confiMyAddress:(NSString *)myAddress {
+    //
+}
 
 
 @end
