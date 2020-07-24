@@ -108,6 +108,7 @@ Clear *g_demoVC = nil;
     
     
     NSUInteger minNumb = MIN(10, self.numberValue);//测试宏定义参数
+    NSUInteger minNumb2 = MIN(10, _numberValue);//测试宏定义参数
     
     sendMessage(@"hello world"); //测试宏函数
     //测试
