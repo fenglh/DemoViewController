@@ -23,6 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)give:(NSString *)name see:(NSInteger)age;
 
+- (BOOL)isSSSSSSuccess ; //事先暴露属性的getter方法
+
+//setter 方法
+- (void)confiMyAddress:(NSString *)myAddress;//事先暴露属性的getter方法;
+
+- (void)setNumberValue:(NSUInteger)numberValue;//先暴露属性setter方法
+- (NSUInteger)numberValue ;//先暴露属性getter方法
+
 @end
 
 NS_ASSUME_NONNULL_END

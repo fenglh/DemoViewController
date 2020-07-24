@@ -105,6 +105,12 @@ Clear *g_demoVC = nil;
 
 @dynamic should; //属性测试代码
 
+- (void)setNumberValue:(NSUInteger)numberValue {
+    
+}
+- (NSUInteger)numberValue {
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
