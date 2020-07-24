@@ -108,7 +108,9 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *str  = self.protocolName; //使用dot的方式来调用协议方法
+    NSString *str  = self.protocolName; //使用dot的方式来调用协议方法 ,隐式消息表达式
+    
+    NSString *str2 = self.myAddress;//隐式消息表达式
     
     NSUInteger minNumb = MIN(10, self.numberValue);//测试宏定义参数
     NSUInteger minNumb2 = MIN(10, _numberValue);//测试宏定义参数
