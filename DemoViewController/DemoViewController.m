@@ -103,7 +103,7 @@ Clear *g_demoVC = nil;
 @synthesize wait ; //合成器、实例变量测试代码，不指定实例变量
 
 @dynamic should; //属性测试代码
-
+//setNumberValue
 - (void)setNumberValue:(NSUInteger)numberValue {
     
 }
