@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSUInteger)numberValue ;//先暴露属性getter方法
 
 //扩展中声明的属性
-- (void)setNotice:(Clear *)demoVC;
+- (void)setNotice:(Clear *)demoVC;//测试代码，验证是否在.m文件中的属性名也会被改变
 @end
 
 NS_ASSUME_NONNULL_END
