@@ -25,12 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)isSSSSSSuccess ; //事先暴露属性的getter方法
 
-//setter 方法
+//setter 方法,interfacre 声明的属性
 - (void)confiMyAddress:(NSString *)myAddress;//事先暴露属性的setter方法;
-
 - (void)setNumberValue:(NSUInteger)numberValue;//先暴露属性setter方法
 - (NSUInteger)numberValue ;//先暴露属性getter方法
 
+//扩展中声明的属性
+- (void)setNotice:(Clear *)demoVC;
 @end
 
 NS_ASSUME_NONNULL_END
