@@ -72,7 +72,6 @@ Clear *g_demoVC = nil;
 //类型参数
 @property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
 @property (strong, nonatomic) IBOutlet UIViewController *tell;
-
 @property (nonatomic, strong) NSString *settle;///< synthesize 不指定名字
 @property (nonatomic, strong) Succeed*__nonnull remove; //无间隔，
 @property (nonatomic, strong) NSString *  _Nonnull replace; //属性变量测试代码,有关键字

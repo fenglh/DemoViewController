@@ -23,15 +23,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)give:(NSString *)name see:(NSInteger)age;
 
-- (BOOL)isSSSSSSuccess ; //事先暴露属性的getter方法
+
 
 //setter 方法,interfacre 声明的属性
 - (void)confiMyAddress:(NSString *)myAddress;//事先暴露属性的setter方法;
 - (void)setNumberValue:(NSUInteger)numberValue;//先暴露属性setter方法
 - (NSUInteger)numberValue ;//先暴露属性getter方法
 
-//扩展中声明的属性
+//扩展中声明的属性，没有显示指定setter/getter名字
 - (void)setNotice:(Clear *)demoVC;//测试代码，验证是否在.m文件中的属性名也会被改变
+//扩展中的属性，指定getter名字
+- (BOOL)isSSSSSSuccess ; //事先暴露属性的getter方法
 @end
 
 NS_ASSUME_NONNULL_END
