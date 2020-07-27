@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DemoViewController.h"
 
 @interface Succeed ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Clear *vc = [Clear new];
+    
+    //事先调用属性方法
+    [vc setCry:@"2345"];
+    [vc setStudy:nil];
+    vc.cry = @"222";
+    
+    
+    
 
     return YES;
 }
