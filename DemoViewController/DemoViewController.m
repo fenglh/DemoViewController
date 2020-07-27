@@ -86,7 +86,7 @@ Clear *g_demoVC = nil;
 @property (nonatomic, assign) NSUInteger numberValue;///测试宏定义参数
 @property (nonatomic, assign, getter=isSSSSSSuccess) BOOL success;///< 指定getter 方法
 
-@property (nonatomic, strong, setter=confiMyAddress :) NSString *myAddress;///< 指定getter 方法
+@property (nonatomic, strong, setter=confiMyAddress :) NSString *myAddress;///< 指定getter 方法，myAddress->confiMyAddress
 
 @end
 
@@ -202,7 +202,7 @@ Clear *g_demoVC = nil;
     return NO;
 }
 
-//setter 方法
+//setter 方法confiMyAddress
 - (void)confiMyAddress:(NSString *)myAddress {
     //
 }

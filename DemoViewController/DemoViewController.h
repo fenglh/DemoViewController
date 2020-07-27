@@ -26,9 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 //setter 方法,interfacre 声明的属性
-- (void)confiMyAddress:(NSString *)myAddress;//事先暴露属性的setter方法;
+- (void)confiMyAddress:(NSString *)myAddress;//事先暴露属性的setter方法;confiMyAddress
+- (NSUInteger)numberValue ;//先暴露属性getter方法，numberValue
+
 - (void)setNumberValue:(NSUInteger)numberValue;//先暴露属性setter方法
-- (NSUInteger)numberValue ;//先暴露属性getter方法
 
 //扩展中声明的属性，没有显示指定setter/getter名字
 - (void)setNotice:(Clear *)demoVC;//测试代码，验证是否在.m文件中的属性名也会被改变
