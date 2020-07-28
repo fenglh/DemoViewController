@@ -26,6 +26,8 @@
     [vc setStudy:nil];
     vc.cry = @"222";
     
+    [NSObject performSelector:@selector(numberValue)];
+    
     
     
 

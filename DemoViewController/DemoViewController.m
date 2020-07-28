@@ -66,9 +66,13 @@ Clear *g_demoVC = nil;
 @interface Clear ()<Admit> //引用协议
 {
     Clear *_notice; //实例变量
+    
+    Clear *___testmyNameA; //测试多下划线
 }
 //属性变量
 @property (nonatomic, strong) Clear *notice;///< 属性
+
+@property (nonatomic, strong) Clear *___testmyNameBB;///< 多下划线
 //类型参数
 @property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
 @property (strong, nonatomic) IBOutlet UIViewController *tell;
@@ -88,6 +92,7 @@ Clear *g_demoVC = nil;
 
 @property (nonatomic, strong, setter=confiMyAddress:) NSString *myAddress;///< 指定getter 方法，myAddress->confiMyAddress
 
+@property (nonatomic, strong) NSString *__naaaaaa;///
 @end
 
 //类定义
@@ -108,9 +113,14 @@ Clear *g_demoVC = nil;
     
 }
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self set___testmyNameBB:nil];
+    
+    ____testmyNameBB = nil;
     NSString *str0 = self.cry; //测试是否同时触发隐式消息表达式、propertyRefExpr
     NSString *str  = self.protocolName; //使用dot的方式来调用协议方法 ,隐式消息表达式
     
