@@ -87,6 +87,7 @@ Clear *g_demoVC = nil;
 @property (nonatomic, strong) NSString  <     Discover, Admit >  *    check ; //类型协议引用 测试代码 任意间隔。
 
 
+@property (nonatomic, strong) NSString *name;///< 测试合成属性
 @property (nonatomic, assign) NSUInteger numberValue;///测试宏定义参数
 @property (nonatomic, assign, getter=isSSSSSSuccess) BOOL success;///< 指定getter 方法
 
@@ -105,6 +106,8 @@ Clear *g_demoVC = nil;
 @synthesize     settle ; ///
 
 
+@synthesize name     =      __name; /*1234*/
+
 @synthesize wait ; //合成器、实例变量测试代码，不指定实例变量
 
 @dynamic should; //属性测试代码
@@ -117,6 +120,14 @@ Clear *g_demoVC = nil;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.name=@"000";__name=@"777";
+    self.name = @"123"; //属性引用混淆测试代码
+    __name = @"111"; //实例变量引用混淆测试代码
+
+    NSString *myName1 = self.name; //属性引用测试代码
+    NSString *myName2 = __name;//实例变量引用测试代码
+    
     
     [self set___testmyNameBB:nil];
     
