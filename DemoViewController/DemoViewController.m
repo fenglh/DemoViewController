@@ -106,7 +106,7 @@ Clear *g_demoVC = nil;
 
 ; //合成器、实例变量测试代码
 
-@synthesize     settle = abc ; ///
+@synthesize     settle = abc ; ///abc 合成名字没有斜划线
 
 
 @synthesize name     =      __name; /*1234*/
@@ -124,7 +124,7 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    abc =@"000";
+    abc =@"000"; //abc
     self.name=@"000";__name=@"777";
     self.name = @"123"; //属性引用混淆测试代码
     __name = @"111"; //实例变量引用混淆测试代码
