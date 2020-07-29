@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //类声明
 @interface Clear : UIViewController
+{
+    NSString *__fenglh;
+}
 
 //类的属性混淆测试
 @property (class,nonatomic, strong) NSString *sound; //class 关键字的属性

@@ -59,6 +59,7 @@ _replace = @"798"; \
 NSLog(@"%@,%@", array,msg);\
 }
 
+
 //全局变量
 Clear *g_demoVC = nil;
 
@@ -68,6 +69,8 @@ Clear *g_demoVC = nil;
     Clear *_notice; //实例变量
     
     Clear *___testmyNameA; //测试多下划线
+    
+    NSString *__name;
 }
 //属性变量
 @property (nonatomic, strong) Clear *notice;///< 属性
@@ -103,7 +106,7 @@ Clear *g_demoVC = nil;
 
 ; //合成器、实例变量测试代码
 
-@synthesize     settle ; ///
+@synthesize     settle = abc ; ///
 
 
 @synthesize name     =      __name; /*1234*/
@@ -121,6 +124,7 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    abc =@"000";
     self.name=@"000";__name=@"777";
     self.name = @"123"; //属性引用混淆测试代码
     __name = @"111"; //实例变量引用混淆测试代码
