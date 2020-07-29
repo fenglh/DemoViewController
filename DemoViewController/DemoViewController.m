@@ -228,5 +228,18 @@ Clear *g_demoVC = nil;
     //
 }
 
+//setter 测试代码
+- (void)setName:(NSString *)name {
+    __name = name;
+}
+
+//getter 测试代码
+- (NSString *)name {
+    if (__name == nil) {
+        __name = @"libai";
+    }
+    return __name;
+}
+
 
 @end
