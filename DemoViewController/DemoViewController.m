@@ -79,7 +79,9 @@ Clear *g_demoVC = nil;
 //类型参数
 @property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
 @property (strong, nonatomic) IBOutlet UIViewController *tell;
-@property (nonatomic, strong) NSString *settle;///< synthesize 不指定名字
+@property (nonatomic, strong) NSString *settle;///< synthesize 指定名字abc
+
+@property (nonatomic, strong) NSString *gogogo;///< googog->__fenglh
 @property (nonatomic, strong) Succeed*__nonnull remove; //无间隔，
 @property (nonatomic, strong) NSString *  _Nonnull replace; //属性变量测试代码,有关键字
 @property (nonatomic, strong) NSString      * __null_unspecified      wait; //属性变量混淆e：测试代码 无间隔。
@@ -107,6 +109,8 @@ Clear *g_demoVC = nil;
 ; //合成器、实例变量测试代码
 
 @synthesize     settle = abc ; ///abc 合成名字没有斜划线
+
+@synthesize gogogo = __fenglh; //googo-->__fenglh
 
 
 @synthesize name     =      __name; /*1234*/

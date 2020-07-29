@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 //类声明
 @interface Clear : UIViewController
 {
-    NSString *__fenglh;
+    NSString *__fenglh;//__fenglh
 }
 
 //类的属性混淆测试
