@@ -12,6 +12,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, AFNetworkReachabilityStatus) {
+    AFNetworkReachabilityStatusUnknown          = -1,
+    AFNetworkReachabilityStatusNotReachable     = 0,
+    AFNetworkReachabilityStatusReachableViaWWAN = 1,
+    AFNetworkReachabilityStatusReachableViaWiFi = 2,
+};
+
+
 //类声明
 @interface Clear : UIViewController
 {
@@ -23,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *cry; //类的属性变量混淆
 @property (nonatomic, strong) NSMutableArray<NSDictionary<NSArray<Succeed *>*,NSString *> *> *study ;//类型多参数测试代码
 
+@property (nonatomic, assign) AFNetworkReachabilityStatus reachabilityStatus;///< //测试枚举
 
 - (void)give:(NSString *)name see:(NSInteger)age;
 
