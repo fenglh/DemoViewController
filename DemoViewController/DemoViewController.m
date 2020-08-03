@@ -9,6 +9,12 @@
 
 #import "DemoViewController.h"
 
+#define CallMethod(NAME, COUNT, PRODUCTID)\
+{\
+    int i = 0;\
+    [self call##NAME:COUNT productId:PRODUCTID];\
+}\
+
 
 //typedef
 
@@ -128,6 +134,8 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    CallMethod(POST, 10, @"1111");
     abc =@"000"; //abc
     self.name=@"000";__name=@"777";
     self.name = @"123"; //属性引用混淆测试代码
@@ -250,4 +258,14 @@ Clear *g_demoVC = nil;
 }
 
 
+
+//测试宏函数（宏串联函数）
+
+- (void)callPOST:(NSInteger )count productId:(NSString *)productId {
+    
+}
+
+- (void)callGET:(NSInteger )count productId:(NSString *)productId{
+    
+}
 @end
