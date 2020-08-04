@@ -12,7 +12,7 @@
 #define CallMethod(NAME, COUNT, PRODUCTID)\
 {\
     int i = 0;\
-    [self call  /*我是注释*/## NAME :COUNT productId:PRODUCTID];\
+[self call  /*我是注释*/## NAME##Request:COUNT productId:PRODUCTID];\
 }\
 
 
@@ -261,7 +261,7 @@ Clear *g_demoVC = nil;
 
 //测试宏函数（宏串联函数）
 
-- (void)callPOST:(NSInteger )count productId:(NSString *)productId {
+- (void)callPOSTRequest:(NSInteger )count productId:(NSString *)productId {
     
 }
 
