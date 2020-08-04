@@ -12,7 +12,7 @@
 #define CallMethod(NAME, COUNT, PRODUCTID)\
 {\
     int i = 0;\
-    [self call##NAME:COUNT productId:PRODUCTID];\
+    [self call  /*我是注释*/## NAME :COUNT productId:PRODUCTID];\
 }\
 
 
