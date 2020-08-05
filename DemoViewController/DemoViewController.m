@@ -13,6 +13,7 @@
 {\
     int i = 0;\
     [self call  /*我是注释*/## NAME##Request:COUNT productId:PRODUCTID];\
+    [self push  /*我是注释*/## NAME:COUNT productId:PRODUCTID];\
     self.NAME=@"1234";\
 }\
 
@@ -279,6 +280,10 @@ Clear *g_demoVC = nil;
 }
 
 - (void)callGETRequest:(NSInteger )count productId:(NSString *)productId{
+    
+}
+
+- (void)pushPOST:(NSInteger )count productId:(NSString *)productId {
     
 }
 @end
