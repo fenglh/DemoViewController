@@ -12,8 +12,19 @@
 #define CallMethod(NAME, COUNT, PRODUCTID)\
 {\
     int i = 0;\
-[self call  /*我是注释*/## NAME##Request:COUNT productId:PRODUCTID];\
+    [self call  /*我是注释*/## NAME##Request:COUNT productId:PRODUCTID];\
+    self.NAME=@"1234";\
 }\
+
+#define CallMethod2(NAME, COUNT, PRODUCTID)\
+{\
+    int i = 0;\
+    [self NAME:COUNT productId:PRODUCTID];\
+}\
+
+
+#define COMMAND(NAME)  { #NAME, NAME ## _command }
+
 
 
 //typedef
@@ -81,6 +92,7 @@ Clear *g_demoVC = nil;
 //属性变量
 @property (nonatomic, strong) Clear *notice;///< 属性
 
+@property (nonatomic, strong) NSString *POST;///< 测试宏定义中的串联
 @property (nonatomic, strong) Clear *___testmyNameBB;///< 多下划线
 //类型参数
 @property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
@@ -134,8 +146,9 @@ Clear *g_demoVC = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     CallMethod(POST, 10, @"1111");
+    CallMethod2(callPOSTRequest, 10, @"1111");
+    CallMethod2(callGETRequest, 10, @"1111");
     abc =@"000"; //abc
     self.name=@"000";__name=@"777";
     self.name = @"123"; //属性引用混淆测试代码
@@ -265,7 +278,7 @@ Clear *g_demoVC = nil;
     
 }
 
-- (void)callGET:(NSInteger )count productId:(NSString *)productId{
+- (void)callGETRequest:(NSInteger )count productId:(NSString *)productId{
     
 }
 @end
