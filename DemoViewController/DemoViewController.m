@@ -17,10 +17,21 @@
     self.NAME=@"1234";\
 }\
 
+
+
+
 #define CallMethod2(NAME, COUNT, PRODUCTID)\
 {\
     int i = 0;\
     [self NAME:COUNT productId:PRODUCTID];\
+}\
+
+#define CallMethod3(NAME, COUNT, PRODUCTID, concat_1, concat_2)\
+{\
+    int i = 0;\
+    [self concat_1 :COUNT productId:PRODUCTID];\
+    [self concat_2:COUNT productId:PRODUCTID];\
+    self.NAME=@"1234";\
 }\
 
 
@@ -148,8 +159,10 @@ Clear *g_demoVC = nil;
     [super viewDidLoad];
     
     CallMethod(POST, 10, @"1111");
-    CallMethod2(callPOSTRequest, 10, @"1111");
-    CallMethod2(callGETRequest, 10, @"1111");
+    
+    CallMethod3(POST, 10, @"1111", callPOSTRequest, callGETRequest);
+//    CallMethod2(callPOSTRequest, 10, @"1111");
+//    CallMethod2(callGETRequest, 10, @"1111");
     abc =@"000"; //abc
     self.name=@"000";__name=@"777";
     self.name = @"123"; //属性引用混淆测试代码
