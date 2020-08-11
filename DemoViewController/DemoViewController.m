@@ -19,6 +19,8 @@
     int i = 0;\
     [self call  /*我是注释*/## NAME##Request:COUNT productId:PRODUCTID];\
     [self push  /*我是注释*/## NAME:COUNT productId:PRODUCTID];\
+    [self push  ##   NAME:COUNT productId:PRODUCTID];\
+    [self metamacro_concat(push, NAME):COUNT productId:PRODUCTID];\
     self.NAME=@"1234";\
 }\
 
