@@ -47,6 +47,8 @@
 @protocol Admit <NSObject>
 - (void)allow;
 
+- (void)lonyDefineMethod;
+
 - (NSString *)protocolName;
 
 
@@ -76,7 +78,7 @@ typedef __strong Clear*  __null_unspecified LHAppdelegate2; //多修饰符、oc�
 {\
 NSMutableArray<NSDictionary<NSArray<Succeed *>*,NSString *> *> *array ;\
 [Succeed new];\
-[NSObject performSelector:@selector( baseProtocolClassMethod )];\
+[NSObject performSelector:@selector( lonyDefineMethod )];\
 \
 self.replace = @"789";\
 \

@@ -72,15 +72,15 @@
 		DB66F8B5248DE59700C18B4F /* DemoViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
-				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
 				DB66F8CF248DE5D500C18B4F /* DemoViewController.h */,
 				DB66F8D0248DE5D500C18B4F /* DemoViewController.m */,
+				DB219B2A24CFBD950072D03C /* SubDemoViewController.h */,
+				DB219B2B24CFBD950072D03C /* SubDemoViewController.m */,
+				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
+				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
 				DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */,
 				DBA7772924C933330091461E /* NSArray+Extension.h */,
 				DBA7772A24C933330091461E /* NSArray+Extension.m */,
-				DB219B2A24CFBD950072D03C /* SubDemoViewController.h */,
-				DB219B2B24CFBD950072D03C /* SubDemoViewController.m */,
 				DB66F8BF248DE59800C18B4F /* Main.storyboard */,
 				DB66F8C2248DE59900C18B4F /* Assets.xcassets */,
 				DB66F8C4248DE59900C18B4F /* LaunchScreen.storyboard */,
