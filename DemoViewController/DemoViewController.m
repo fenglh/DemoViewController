@@ -114,6 +114,9 @@ Clear *g_demoVC = nil;
 @property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
 @property (strong, nonatomic) IBOutlet UIViewController *tell;
 @property (nonatomic, strong) NSString *settle;///< synthesize 指定名字abc
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
+
+@property (weak, nonatomic) IBOutlet UILabel *myTitleLabel;
 
 @property (nonatomic, strong) NSString *gogogo;///< googog->__fenglh
 @property (nonatomic, strong) Succeed*__nonnull remove; //无间隔，
@@ -288,6 +291,10 @@ Clear *g_demoVC = nil;
         __name = @"libai";
     }
     return __name;
+}
+- (IBAction)touchUpIN:(id)sender {
+}
+- (IBAction)touchCancel:(id)sender {
 }
 
 
