@@ -11,6 +11,7 @@
             <connections>
                 <outlet property="myButton" destination="CkJ-Ef-CgK" id="2om-Oc-CjL"/>
                 <outlet property="myTitleLabel" destination="mv9-Eq-vc5" id="Pmb-zH-9x7"/>
+                <outlet property="myView" destination="afx-Vh-5fy" id="gol-yU-3H9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

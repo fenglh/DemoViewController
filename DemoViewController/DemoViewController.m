@@ -8,6 +8,7 @@
 
 
 #import "DemoViewController.h"
+#import "MyView.h"
 
 
 #define metamacro_concat(A, B) A ## B
@@ -117,6 +118,8 @@ Clear *g_demoVC = nil;
 @property (weak, nonatomic) IBOutlet UIButton *myButton;
 
 @property (weak, nonatomic) IBOutlet UILabel *myTitleLabel;
+
+@property (weak, nonatomic) IBOutlet MyView *myView;
 
 @property (nonatomic, strong) NSString *gogogo;///< googog->__fenglh
 @property (nonatomic, strong) Succeed*__nonnull remove; //无间隔，
