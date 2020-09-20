@@ -113,7 +113,6 @@ Clear *g_demoVC = nil;
 @property (nonatomic, strong) Clear *___testmyNameBB;///< 多下划线
 //类型参数
 @property (nonatomic, strong) NSDictionary <NSString*, Clear *> *ask;
-@property (strong, nonatomic) IBOutlet UIViewController *tell;
 @property (nonatomic, strong) NSString *settle;///< synthesize 指定名字abc
 @property (weak, nonatomic) IBOutlet UIButton *myButton;
 
@@ -130,6 +129,7 @@ Clear *g_demoVC = nil;
 @property (nonatomic, strong) NSMutableArray   <    NSDictionary < NSArray< Succeed *   >   * ,NSString * > * >    *     occur ;//类型多参数测试代码,任意空格
 @property (nonatomic, strong) NSString <Discover, Admit> *sit ; //类型协议引用 测试代码
 @property (nonatomic, strong) NSString  <     Discover, Admit >  *    check ; //类型协议引用 测试代码 任意间隔。
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGesture;
 
 
 @property (nonatomic, strong) NSString *name;///< 测试合成属性

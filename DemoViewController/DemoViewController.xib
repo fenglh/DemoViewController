@@ -7,11 +7,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Clear">
             <connections>
                 <outlet property="myButton" destination="CkJ-Ef-CgK" id="2om-Oc-CjL"/>
                 <outlet property="myTitleLabel" destination="mv9-Eq-vc5" id="Pmb-zH-9x7"/>
                 <outlet property="myView" destination="afx-Vh-5fy" id="gol-yU-3H9"/>
+                <outlet property="tapGesture" destination="mge-6a-PzH" id="O9C-Qu-nj8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,10 +30,14 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afx-Vh-5fy" customClass="MyView">
                     <rect key="frame" x="87" y="281.5" width="240" height="333"/>
                     <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="height" constant="333" id="493-qe-grs"/>
                         <constraint firstAttribute="width" constant="240" id="oUw-s1-H7b"/>
                     </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="mge-6a-PzH" appends="YES" id="CC3-bg-xxY"/>
+                    </connections>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkJ-Ef-CgK">
                     <rect key="frame" x="163" y="634.5" width="88" height="130"/>
@@ -61,5 +66,6 @@
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="139" y="134"/>
         </view>
+        <tapGestureRecognizer id="mge-6a-PzH"/>
     </objects>
 </document>
