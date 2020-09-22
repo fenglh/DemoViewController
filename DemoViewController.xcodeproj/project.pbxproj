@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB219B2C24CFBD950072D03C /* SubDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB219B2B24CFBD950072D03C /* SubDemoViewController.m */; };
 		DB412A5525179F36003DC582 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB412A5425179F36003DC582 /* MyView.m */; };
+		DB412A5C2517AA8A003DC582 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB412A5B2517AA8A003DC582 /* MyButton.m */; };
 		DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8B7248DE59700C18B4F /* AppDelegate.m */; };
 		DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8BF248DE59800C18B4F /* Main.storyboard */; };
 		DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8C2248DE59900C18B4F /* Assets.xcassets */; };
@@ -26,6 +27,8 @@
 		DB219B2B24CFBD950072D03C /* SubDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubDemoViewController.m; sourceTree = "<group>"; };
 		DB412A5325179F36003DC582 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		DB412A5425179F36003DC582 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		DB412A5A2517AA8A003DC582 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		DB412A5B2517AA8A003DC582 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		DB66F8B3248DE59700C18B4F /* DemoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB66F8B6248DE59700C18B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB66F8B7248DE59700C18B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,9 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB412A5D2517B661003DC582 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
+				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 		DB66F8AA248DE59700C18B4F = {
 			isa = PBXGroup;
 			children = (
+				DB412A5D2517B661003DC582 /* App */,
 				DB66F8B5248DE59700C18B4F /* DemoViewController */,
 				DB66F8B4248DE59700C18B4F /* Products */,
 				DB66F8DD248F5AFD00C18B4F /* Frameworks */,
@@ -79,8 +92,6 @@
 				DB66F8D0248DE5D500C18B4F /* DemoViewController.m */,
 				DB219B2A24CFBD950072D03C /* SubDemoViewController.h */,
 				DB219B2B24CFBD950072D03C /* SubDemoViewController.m */,
-				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
-				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
 				DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */,
 				DBA7772924C933330091461E /* NSArray+Extension.h */,
 				DBA7772A24C933330091461E /* NSArray+Extension.m */,
@@ -91,6 +102,8 @@
 				DB66F8C8248DE59900C18B4F /* main.m */,
 				DB412A5325179F36003DC582 /* MyView.h */,
 				DB412A5425179F36003DC582 /* MyView.m */,
+				DB412A5A2517AA8A003DC582 /* MyButton.h */,
+				DB412A5B2517AA8A003DC582 /* MyButton.m */,
 			);
 			path = DemoViewController;
 			sourceTree = "<group>";
@@ -178,6 +191,7 @@
 			files = (
 				DBA7772B24C933330091461E /* NSArray+Extension.m in Sources */,
 				DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */,
+				DB412A5C2517AA8A003DC582 /* MyButton.m in Sources */,
 				DB412A5525179F36003DC582 /* MyView.m in Sources */,
 				DB66F8C9248DE59900C18B4F /* main.m in Sources */,
 				DB219B2C24CFBD950072D03C /* SubDemoViewController.m in Sources */,

@@ -39,7 +39,7 @@
                         <outletCollection property="gestureRecognizers" destination="mge-6a-PzH" appends="YES" id="CC3-bg-xxY"/>
                     </connections>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkJ-Ef-CgK">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkJ-Ef-CgK" customClass="MyButton">
                     <rect key="frame" x="163" y="634.5" width="88" height="130"/>
                     <color key="backgroundColor" red="0.55294117649999996" green="0.36470588240000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
