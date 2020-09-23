@@ -23,6 +23,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="dragInside:" destination="Ksz-JJ-khe" eventType="touchDragInside" id="O6D-ch-P2W"/>
                                     <action selector="touchDown:" destination="Ksz-JJ-khe" eventType="touchDown" id="rDI-EO-8cs"/>
                                     <action selector="touchUpInside:" destination="Ksz-JJ-khe" eventType="touchUpInside" id="vnq-Mw-4dj"/>
                                 </connections>

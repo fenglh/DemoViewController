@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MyViewController : UIViewController
+- (IBAction)dragInside:(id)sender;
 
 @end
 

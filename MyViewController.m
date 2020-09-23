@@ -34,4 +34,6 @@
 }
 */
 
+- (IBAction)dragInside:(id)sender {
+}
 @end
