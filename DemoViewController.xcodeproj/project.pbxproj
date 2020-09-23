@@ -10,6 +10,8 @@
 		DB219B2C24CFBD950072D03C /* SubDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB219B2B24CFBD950072D03C /* SubDemoViewController.m */; };
 		DB412A5525179F36003DC582 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB412A5425179F36003DC582 /* MyView.m */; };
 		DB412A5C2517AA8A003DC582 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB412A5B2517AA8A003DC582 /* MyButton.m */; };
+		DB412A73251AD61B003DC582 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB412A70251AD61B003DC582 /* MyViewController.m */; };
+		DB412A74251AD61B003DC582 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB412A71251AD61B003DC582 /* My.storyboard */; };
 		DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66F8B7248DE59700C18B4F /* AppDelegate.m */; };
 		DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8BF248DE59800C18B4F /* Main.storyboard */; };
 		DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB66F8C2248DE59900C18B4F /* Assets.xcassets */; };
@@ -29,6 +31,9 @@
 		DB412A5425179F36003DC582 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		DB412A5A2517AA8A003DC582 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
 		DB412A5B2517AA8A003DC582 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		DB412A70251AD61B003DC582 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		DB412A71251AD61B003DC582 /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		DB412A72251AD61B003DC582 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		DB66F8B3248DE59700C18B4F /* DemoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB66F8B6248DE59700C18B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB66F8B7248DE59700C18B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		DB412A5D2517B661003DC582 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DB412A71251AD61B003DC582 /* My.storyboard */,
+				DB412A72251AD61B003DC582 /* MyViewController.h */,
+				DB412A70251AD61B003DC582 /* MyViewController.m */,
 				DB66F8B6248DE59700C18B4F /* AppDelegate.h */,
 				DB66F8B7248DE59700C18B4F /* AppDelegate.m */,
 			);
@@ -178,6 +186,7 @@
 				DB66F8C6248DE59900C18B4F /* LaunchScreen.storyboard in Resources */,
 				DB66F8C3248DE59900C18B4F /* Assets.xcassets in Resources */,
 				DB66F8C1248DE59800C18B4F /* Main.storyboard in Resources */,
+				DB412A74251AD61B003DC582 /* My.storyboard in Resources */,
 				DB66F8D3248DE5D500C18B4F /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +200,7 @@
 			files = (
 				DBA7772B24C933330091461E /* NSArray+Extension.m in Sources */,
 				DB66F8B8248DE59700C18B4F /* AppDelegate.m in Sources */,
+				DB412A73251AD61B003DC582 /* MyViewController.m in Sources */,
 				DB412A5C2517AA8A003DC582 /* MyButton.m in Sources */,
 				DB412A5525179F36003DC582 /* MyView.m in Sources */,
 				DB66F8C9248DE59900C18B4F /* main.m in Sources */,
