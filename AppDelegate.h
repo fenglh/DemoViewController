@@ -10,7 +10,7 @@
 
 @interface Succeed : UIResponder <UIApplicationDelegate>
 
-- (void)test;
+- (void)testAAA;
 
 @end
 

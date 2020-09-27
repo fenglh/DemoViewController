@@ -14,7 +14,7 @@
 @end
 
 @implementation Succeed
-- (void)test {
+- (void)testAAA {
     
 }
 
