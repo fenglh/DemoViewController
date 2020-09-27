@@ -52,6 +52,8 @@
 
 - (NSString *)protocolName;
 
+- (void)testCallProtocolMethod;
+
 
 @end
 
@@ -162,13 +164,16 @@ Clear *g_demoVC = nil;
 - (void)setNumberValue:(NSUInteger)numberValue {
     
 }
-
+//- (void)testCallProtocolMethod {
+//    
+//}
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
+    [self testCallProtocolMethod];
     
     CallMethod(POST, 10, @"1111");
     CallMethod2(POST, 10, @"1111");

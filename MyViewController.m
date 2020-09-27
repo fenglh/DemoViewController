@@ -9,6 +9,8 @@
 #import "MyViewController.h"
 #import "AppDelegate.h"
 
+#import "NSArray+Extension.h"
+
 @interface MyViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *myButton;
 
@@ -23,7 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     Succeed *appdelegate = (Succeed *)[UIApplication sharedApplication].delegate;
-    [appdelegate test];
+    [appdelegate testAAA];
+    [[[NSArray alloc] init] wish];
 }
 
 /*
