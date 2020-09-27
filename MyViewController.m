@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     Succeed *appdelegate = (Succeed *)[UIApplication sharedApplication].delegate;
+    [appdelegate test];
 }
 
 /*
