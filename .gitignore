@@ -1,0 +1,5 @@
+*.json
+build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build
+build
+Obfuscator_config.xcconfig
+Headers
