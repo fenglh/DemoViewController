@@ -1,0 +1,777 @@
+# Path: /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/Binary/DemoViewController
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/DemoViewController.app-Simulated.xcent
+[  2] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/NSArray+Extension.o
+[  3] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/AppDelegate.o
+[  4] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/MyViewController.o
+[  5] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/MyButton.o
+[  6] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/MyView.o
+[  7] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/main.o
+[  8] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/SubDemoViewController.o
+[  9] /Users/fenglihai/DemoViewController/build/DemoViewController.build/Release-iphonesimulator/DemoViewController.build/Objects-normal/x86_64/DemoViewController.o
+[ 10] /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks//Foundation.framework/Foundation.tbd
+[ 11] /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/lib/libobjc.tbd
+[ 12] /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks//UIKit.framework/UIKit.tbd
+# Sections:
+# Address	Size    	Segment	Section
+0x100004290	0x00001D67	__TEXT	__text
+0x100005FF8	0x00000072	__TEXT	__stubs
+0x10000606C	0x000000CE	__TEXT	__stub_helper
+0x10000613A	0x0000005B	__TEXT	__objc_classname
+0x100006195	0x00000E55	__TEXT	__objc_methname
+0x100006FEA	0x000009F8	__TEXT	__objc_methtype
+0x1000079E2	0x00000445	__TEXT	__cstring
+0x100007E27	0x00000186	__TEXT	__entitlements
+0x100007FB0	0x00000048	__TEXT	__unwind_info
+0x100008000	0x00000020	__DATA_CONST	__got
+0x100008020	0x00000040	__DATA_CONST	__const
+0x100008060	0x00000200	__DATA_CONST	__cfstring
+0x100008260	0x00000030	__DATA_CONST	__objc_classlist
+0x100008290	0x00000008	__DATA_CONST	__objc_catlist
+0x100008298	0x00000018	__DATA_CONST	__objc_protolist
+0x1000082B0	0x00000008	__DATA_CONST	__objc_imageinfo
+0x10000C000	0x00000098	__DATA	__la_symbol_ptr
+0x10000C098	0x00001E60	__DATA	__objc_const
+0x10000DEF8	0x000000F0	__DATA	__objc_selrefs
+0x10000DFE8	0x00000008	__DATA	__objc_protorefs
+0x10000DFF0	0x00000038	__DATA	__objc_classrefs
+0x10000E028	0x00000018	__DATA	__objc_superrefs
+0x10000E040	0x000000D8	__DATA	__objc_ivar
+0x10000E118	0x000001E0	__DATA	__objc_data
+0x10000E2F8	0x00000128	__DATA	__data
+# Symbols:
+# Address	Size    	File  Name
+0x100004290	0x0000000E	[  2] -[NSArray(Thank) act]
+0x1000042A0	0x00000010	[  3] -[Walk publish]
+0x1000042B0	0x00000120	[  3] -[Walk application:didFinishLaunchingWithOptions:]
+0x1000043D0	0x00000120	[  3] -[Walk application:configurationForConnectingSceneSession:options:]
+0x1000044F0	0x00000070	[  3] -[Walk application:didDiscardSceneSessions:]
+0x100004560	0x00000040	[  4] -[Kick support:]
+0x1000045A0	0x00000040	[  4] -[Kick go:]
+0x1000045E0	0x000000E0	[  4] -[Kick viewDidLoad]
+0x1000046C0	0x00000040	[  4] -[Kick discuss:]
+0x100004700	0x00000040	[  4] -[Kick prove]
+0x100004740	0x00000040	[  4] -[Kick setProve:]
+0x100004780	0x0000002C	[  4] -[Kick .cxx_destruct]
+0x1000047B0	0x0000008E	[  7] _main
+0x100004840	0x0000006B	[  8] -[Consist viewDidLoad]
+0x1000048B0	0x00000020	[  9] -[Consider setKnock:]
+0x1000048D0	0x00000700	[  9] -[Consider viewDidLoad]
+0x100004FD0	0x00000090	[  9] ___23-[Consider viewDidLoad]_block_invoke
+0x100005060	0x00000080	[  9] -[Consider promise]
+0x1000050E0	0x00000040	[  9] -[Consider setRun:]
+0x100005120	0x00000010	[  9] +[Consider study]
+0x100005130	0x00000050	[  9] -[Consider look:shall:]
+0x100005180	0x00000070	[  9] -[Consider experience:reveal:]
+0x1000051F0	0x00000040	[  9] -[Consider face:]
+0x100005230	0x00000020	[  9] -[Consider demand]
+0x100005250	0x00000040	[  9] -[Consider fight:]
+0x100005290	0x00000060	[  9] -[Consider setRecord:]
+0x1000052F0	0x00000060	[  9] -[Consider record]
+0x100005350	0x00000040	[  9] -[Consider result:]
+0x100005390	0x00000040	[  9] -[Consider encourage:]
+0x1000053D0	0x00000050	[  9] -[Consider want:press:]
+0x100005420	0x00000050	[  9] -[Consider account:expect:]
+0x100005470	0x00000050	[  9] -[Consider intend:rest:]
+0x1000054C0	0x00000020	[  9] -[Consider toBreak]
+0x1000054E0	0x00000040	[  9] -[Consider setToBreak:]
+0x100005520	0x00000020	[  9] -[Consider clean]
+0x100005540	0x00000040	[  9] -[Consider setClean:]
+0x100005580	0x00000020	[  9] -[Consider supply]
+0x1000055A0	0x00000040	[  9] -[Consider setSupply:]
+0x1000055E0	0x00000020	[  9] -[Consider apply]
+0x100005600	0x00000040	[  9] -[Consider setApply:]
+0x100005640	0x00000020	[  9] -[Consider describe]
+0x100005660	0x00000040	[  9] -[Consider setDescribe:]
+0x1000056A0	0x00000020	[  9] -[Consider visit]
+0x1000056C0	0x00000040	[  9] -[Consider setVisit:]
+0x100005700	0x00000020	[  9] -[Consider cut]
+0x100005720	0x00000030	[  9] -[Consider setCut:]
+0x100005750	0x00000020	[  9] -[Consider run]
+0x100005770	0x00000020	[  9] -[Consider survive]
+0x100005790	0x00000040	[  9] -[Consider setSurvive:]
+0x1000057D0	0x00000020	[  9] -[Consider come]
+0x1000057F0	0x00000040	[  9] -[Consider setCome:]
+0x100005830	0x00000020	[  9] -[Consider happen]
+0x100005850	0x00000040	[  9] -[Consider setHappen:]
+0x100005890	0x00000040	[  9] -[Consider prove]
+0x1000058D0	0x00000040	[  9] -[Consider setProve:]
+0x100005910	0x00000040	[  9] -[Consider enjoy]
+0x100005950	0x00000040	[  9] -[Consider setEnjoy:]
+0x100005990	0x00000040	[  9] -[Consider expect]
+0x1000059D0	0x00000040	[  9] -[Consider setExpect:]
+0x100005A10	0x00000020	[  9] -[Consider charge]
+0x100005A30	0x00000040	[  9] -[Consider setCharge:]
+0x100005A70	0x00000020	[  9] -[Consider exist]
+0x100005A90	0x00000040	[  9] -[Consider setExist:]
+0x100005AD0	0x00000020	[  9] -[Consider realize]
+0x100005AF0	0x00000040	[  9] -[Consider setRealize:]
+0x100005B30	0x00000020	[  9] -[Consider aim]
+0x100005B50	0x00000040	[  9] -[Consider setAim:]
+0x100005B90	0x00000020	[  9] -[Consider sort]
+0x100005BB0	0x00000040	[  9] -[Consider setSort:]
+0x100005BF0	0x00000020	[  9] -[Consider suggest]
+0x100005C10	0x00000040	[  9] -[Consider setSuggest:]
+0x100005C50	0x00000020	[  9] -[Consider knock]
+0x100005C70	0x00000030	[  9] -[Consider report]
+0x100005CA0	0x00000030	[  9] -[Consider setReport:]
+0x100005CD0	0x00000020	[  9] -[Consider argue]
+0x100005CF0	0x00000040	[  9] -[Consider setArgue:]
+0x100005D30	0x00000020	[  9] -[Consider mark]
+0x100005D50	0x00000040	[  9] -[Consider setMark:]
+0x100005D90	0x00000267	[  9] -[Consider .cxx_destruct]
+0x100005FF8	0x00000006	[ 10] _NSLog
+0x100005FFE	0x00000006	[ 10] _NSStringFromClass
+0x100006004	0x00000006	[ 12] _UIApplicationMain
+0x10000600A	0x00000006	[ 11] _objc_alloc
+0x100006010	0x00000006	[ 11] _objc_alloc_init
+0x100006016	0x00000006	[ 11] _objc_autoreleasePoolPop
+0x10000601C	0x00000006	[ 11] _objc_autoreleasePoolPush
+0x100006022	0x00000006	[ 11] _objc_autoreleaseReturnValue
+0x100006028	0x00000006	[ 11] _objc_destroyWeak
+0x10000602E	0x00000006	[ 11] _objc_loadWeakRetained
+0x100006034	0x00000006	[ 11] _objc_msgSendSuper2
+0x10000603A	0x00000006	[ 11] _objc_opt_class
+0x100006040	0x00000006	[ 11] _objc_opt_new
+0x100006046	0x00000006	[ 11] _objc_retainAutoreleaseReturnValue
+0x10000604C	0x00000006	[ 11] _objc_retainAutoreleasedReturnValue
+0x100006052	0x00000006	[ 11] _objc_retainBlock
+0x100006058	0x00000006	[ 11] _objc_storeStrong
+0x10000605E	0x00000006	[ 11] _objc_storeWeak
+0x100006064	0x00000006	[ 11] _objc_unsafeClaimAutoreleasedReturnValue
+0x10000606C	0x00000010	[  0] helper helper
+0x10000607C	0x0000000A	[ 10] _NSLog
+0x100006086	0x0000000A	[ 10] _NSStringFromClass
+0x100006090	0x0000000A	[ 11] _objc_alloc
+0x10000609A	0x0000000A	[ 11] _objc_alloc_init
+0x1000060A4	0x0000000A	[ 11] _objc_autoreleasePoolPop
+0x1000060AE	0x0000000A	[ 11] _objc_autoreleasePoolPush
+0x1000060B8	0x0000000A	[ 11] _objc_autoreleaseReturnValue
+0x1000060C2	0x0000000A	[ 11] _objc_destroyWeak
+0x1000060CC	0x0000000A	[ 11] _objc_loadWeakRetained
+0x1000060D6	0x0000000A	[ 11] _objc_msgSendSuper2
+0x1000060E0	0x0000000A	[ 11] _objc_opt_class
+0x1000060EA	0x0000000A	[ 11] _objc_opt_new
+0x1000060F4	0x0000000A	[ 11] _objc_retainAutoreleaseReturnValue
+0x1000060FE	0x0000000A	[ 11] _objc_retainAutoreleasedReturnValue
+0x100006108	0x0000000A	[ 11] _objc_retainBlock
+0x100006112	0x0000000A	[ 11] _objc_storeStrong
+0x10000611C	0x0000000A	[ 11] _objc_storeWeak
+0x100006126	0x0000000A	[ 11] _objc_unsafeClaimAutoreleasedReturnValue
+0x100006130	0x0000000A	[ 12] _UIApplicationMain
+0x10000613A	0x00000006	[  2] literal string: Thank
+0x100006140	0x00000005	[  3] literal string: Walk
+0x100006145	0x00000016	[  3] literal string: UIApplicationDelegate
+0x10000615B	0x00000009	[  3] literal string: NSObject
+0x100006164	0x00000005	[  4] literal string: Kick
+0x100006169	0x00000002	[  4] literal string: 
+0x10000616B	0x00000009	[  5] literal string: Describe
+0x100006174	0x00000004	[  6] literal string: Add
+0x100006178	0x00000008	[  8] literal string: Consist
+0x100006180	0x00000004	[  9] literal string: Pay
+0x100006184	0x00000009	[  9] literal string: Consider
+0x10000618D	0x00000006	[  9] literal string: 6
+0x100006193	0x00000002	[  9] literal string: ã
+0x100006195	0x00000004	[  2] literal string: act
+0x100006199	0x0000000D	[  3] literal string: setDescribe:
+0x1000061A6	0x0000000A	[  3] literal string: setVisit:
+0x1000061B0	0x0000000C	[  3] literal string: numberValue
+0x1000061BC	0x00000011	[  3] literal string: performSelector:
+0x1000061CD	0x00000005	[  3] literal string: role
+0x1000061D2	0x0000001A	[  3] literal string: initWithName:sessionRole:
+0x1000061EC	0x00000009	[  3] literal string: isEqual:
+0x1000061F5	0x00000006	[  3] literal string: class
+0x1000061FB	0x00000005	[  3] literal string: self
+0x100006200	0x0000001C	[  3] literal string: performSelector:withObject:
+0x10000621C	0x00000027	[  3] literal string: performSelector:withObject:withObject:
+0x100006243	0x00000008	[  3] literal string: isProxy
+0x10000624B	0x0000000F	[  3] literal string: isKindOfClass:
+0x10000625A	0x00000011	[  3] literal string: isMemberOfClass:
+0x10000626B	0x00000014	[  3] literal string: conformsToProtocol:
+0x10000627F	0x00000014	[  3] literal string: respondsToSelector:
+0x100006293	0x00000007	[  3] literal string: retain
+0x10000629A	0x00000008	[  3] literal string: release
+0x1000062A2	0x0000000C	[  3] literal string: autorelease
+0x1000062AE	0x0000000C	[  3] literal string: retainCount
+0x1000062BA	0x00000005	[  3] literal string: zone
+0x1000062BF	0x00000005	[  3] literal string: hash
+0x1000062C4	0x0000000B	[  3] literal string: superclass
+0x1000062CF	0x0000000C	[  3] literal string: description
+0x1000062DB	0x00000011	[  3] literal string: debugDescription
+0x1000062EC	0x0000001F	[  3] literal string: applicationDidFinishLaunching:
+0x10000630B	0x0000002C	[  3] literal string: application:willFinishLaunchingWithOptions:
+0x100006337	0x0000002B	[  3] literal string: application:didFinishLaunchingWithOptions:
+0x100006362	0x0000001C	[  3] literal string: applicationDidBecomeActive:
+0x10000637E	0x0000001D	[  3] literal string: applicationWillResignActive:
+0x10000639B	0x0000001B	[  3] literal string: application:handleOpenURL:
+0x1000063B6	0x00000032	[  3] literal string: application:openURL:sourceApplication:annotation:
+0x1000063E8	0x0000001D	[  3] literal string: application:openURL:options:
+0x100006405	0x00000024	[  3] literal string: applicationDidReceiveMemoryWarning:
+0x100006429	0x0000001A	[  3] literal string: applicationWillTerminate:
+0x100006443	0x00000022	[  3] literal string: applicationSignificantTimeChange:
+0x100006465	0x00000035	[  3] literal string: application:willChangeStatusBarOrientation:duration:
+0x10000649A	0x0000002B	[  3] literal string: application:didChangeStatusBarOrientation:
+0x1000064C5	0x00000026	[  3] literal string: application:willChangeStatusBarFrame:
+0x1000064EB	0x00000025	[  3] literal string: application:didChangeStatusBarFrame:
+0x100006510	0x00000031	[  3] literal string: application:didRegisterUserNotificationSettings:
+0x100006541	0x0000003E	[  3] literal string: application:didRegisterForRemoteNotificationsWithDeviceToken:
+0x10000657F	0x0000003E	[  3] literal string: application:didFailToRegisterForRemoteNotificationsWithError:
+0x1000065BD	0x0000002A	[  3] literal string: application:didReceiveRemoteNotification:
+0x1000065E7	0x00000029	[  3] literal string: application:didReceiveLocalNotification:
+0x100006610	0x0000004F	[  3] literal string: application:handleActionWithIdentifier:forLocalNotification:completionHandler:
+0x10000665F	0x00000061	[  3] literal string: application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:
+0x1000066C0	0x00000050	[  3] literal string: application:handleActionWithIdentifier:forRemoteNotification:completionHandler:
+0x100006710	0x00000060	[  3] literal string: application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:completionHandler:
+0x100006770	0x00000041	[  3] literal string: application:didReceiveRemoteNotification:fetchCompletionHandler:
+0x1000067B1	0x0000002F	[  3] literal string: application:performFetchWithCompletionHandler:
+0x1000067E0	0x0000003C	[  3] literal string: application:performActionForShortcutItem:completionHandler:
+0x10000681C	0x00000043	[  3] literal string: application:handleEventsForBackgroundURLSession:completionHandler:
+0x10000685F	0x00000032	[  3] literal string: application:handleWatchKitExtensionRequest:reply:
+0x100006891	0x0000002D	[  3] literal string: applicationShouldRequestHealthAuthorization:
+0x1000068BE	0x0000001E	[  3] literal string: application:handlerForIntent:
+0x1000068DC	0x0000002C	[  3] literal string: application:handleIntent:completionHandler:
+0x100006908	0x0000001F	[  3] literal string: applicationDidEnterBackground:
+0x100006927	0x00000020	[  3] literal string: applicationWillEnterForeground:
+0x100006947	0x0000002F	[  3] literal string: applicationProtectedDataWillBecomeUnavailable:
+0x100006976	0x0000002C	[  3] literal string: applicationProtectedDataDidBecomeAvailable:
+0x1000069A2	0x00000035	[  3] literal string: application:supportedInterfaceOrientationsForWindow:
+0x1000069D7	0x00000031	[  3] literal string: application:shouldAllowExtensionPointIdentifier:
+0x100006A08	0x0000003F	[  3] literal string: application:viewControllerWithRestorationIdentifierPath:coder:
+0x100006A47	0x0000002E	[  3] literal string: application:shouldSaveSecureApplicationState:
+0x100006A75	0x00000031	[  3] literal string: application:shouldRestoreSecureApplicationState:
+0x100006AA6	0x00000030	[  3] literal string: application:willEncodeRestorableStateWithCoder:
+0x100006AD6	0x0000002F	[  3] literal string: application:didDecodeRestorableStateWithCoder:
+0x100006B05	0x00000028	[  3] literal string: application:shouldSaveApplicationState:
+0x100006B2D	0x0000002B	[  3] literal string: application:shouldRestoreApplicationState:
+0x100006B58	0x0000002E	[  3] literal string: application:willContinueUserActivityWithType:
+0x100006B86	0x00000035	[  3] literal string: application:continueUserActivity:restorationHandler:
+0x100006BBB	0x00000039	[  3] literal string: application:didFailToContinueUserActivityWithType:error:
+0x100006BF4	0x00000023	[  3] literal string: application:didUpdateUserActivity:
+0x100006C17	0x00000034	[  3] literal string: application:userDidAcceptCloudKitShareWithMetadata:
+0x100006C4B	0x0000003C	[  3] literal string: application:configurationForConnectingSceneSession:options:
+0x100006C87	0x00000025	[  3] literal string: application:didDiscardSceneSessions:
+0x100006CAC	0x00000007	[  3] literal string: window
+0x100006CB3	0x0000000B	[  3] literal string: setWindow:
+0x100006CBE	0x00000008	[  3] literal string: publish
+0x100006CC6	0x0000000C	[  4] literal string: viewDidLoad
+0x100006CD2	0x00000012	[  4] literal string: sharedApplication
+0x100006CE4	0x00000009	[  4] literal string: delegate
+0x100006CED	0x00000009	[  4] literal string: support:
+0x100006CF6	0x00000004	[  4] literal string: go:
+0x100006CFA	0x00000009	[  4] literal string: discuss:
+0x100006D03	0x00000006	[  4] literal string: prove
+0x100006D09	0x0000000A	[  4] literal string: setProve:
+0x100006D13	0x0000000E	[  4] literal string: .cxx_destruct
+0x100006D21	0x00000007	[  4] literal string: _prove
+0x100006D28	0x0000000C	[  8] literal string: look:shall:
+0x100006D34	0x00000009	[  9] literal string: separate
+0x100006D3D	0x0000000C	[  9] literal string: want:press:
+0x100006D49	0x0000000D	[  9] literal string: intend:rest:
+0x100006D56	0x0000000C	[  9] literal string: setSurvive:
+0x100006D62	0x0000000B	[  9] literal string: setRecord:
+0x100006D6D	0x00000007	[  9] literal string: record
+0x100006D74	0x00000009	[  9] literal string: setCome:
+0x100006D7D	0x00000009	[  9] literal string: describe
+0x100006D86	0x00000005	[  9] literal string: drop
+0x100006D8B	0x00000006	[  9] literal string: argue
+0x100006D91	0x00000006	[  9] literal string: knock
+0x100006D97	0x0000000A	[  9] literal string: represent
+0x100006DA1	0x0000000C	[  9] literal string: setToBreak:
+0x100006DAD	0x00000004	[  9] literal string: hit
+0x100006DB1	0x00000006	[  9] literal string: study
+0x100006DB7	0x00000005	[  9] literal string: sort
+0x100006DBC	0x00000006	[  9] literal string: array
+0x100006DC2	0x0000000A	[  9] literal string: setKnock:
+0x100006DCC	0x00000008	[  9] literal string: promise
+0x100006DD4	0x00000008	[  9] literal string: setRun:
+0x100006DDC	0x00000013	[  9] literal string: experience:reveal:
+0x100006DEF	0x00000006	[  9] literal string: face:
+0x100006DF5	0x00000007	[  9] literal string: demand
+0x100006DFC	0x00000007	[  9] literal string: fight:
+0x100006E03	0x00000008	[  9] literal string: result:
+0x100006E0B	0x0000000B	[  9] literal string: encourage:
+0x100006E16	0x00000010	[  9] literal string: account:expect:
+0x100006E26	0x00000008	[  9] literal string: toBreak
+0x100006E2E	0x00000006	[  9] literal string: clean
+0x100006E34	0x0000000A	[  9] literal string: setClean:
+0x100006E3E	0x00000007	[  9] literal string: supply
+0x100006E45	0x0000000B	[  9] literal string: setSupply:
+0x100006E50	0x00000006	[  9] literal string: apply
+0x100006E56	0x0000000A	[  9] literal string: setApply:
+0x100006E60	0x00000006	[  9] literal string: visit
+0x100006E66	0x00000004	[  9] literal string: cut
+0x100006E6A	0x00000008	[  9] literal string: setCut:
+0x100006E72	0x00000004	[  9] literal string: run
+0x100006E76	0x00000008	[  9] literal string: survive
+0x100006E7E	0x00000005	[  9] literal string: come
+0x100006E83	0x00000007	[  9] literal string: happen
+0x100006E8A	0x0000000B	[  9] literal string: setHappen:
+0x100006E95	0x00000006	[  9] literal string: enjoy
+0x100006E9B	0x0000000A	[  9] literal string: setEnjoy:
+0x100006EA5	0x00000007	[  9] literal string: expect
+0x100006EAC	0x0000000B	[  9] literal string: setExpect:
+0x100006EB7	0x00000007	[  9] literal string: charge
+0x100006EBE	0x0000000B	[  9] literal string: setCharge:
+0x100006EC9	0x00000006	[  9] literal string: exist
+0x100006ECF	0x0000000A	[  9] literal string: setExist:
+0x100006ED9	0x00000008	[  9] literal string: realize
+0x100006EE1	0x0000000C	[  9] literal string: setRealize:
+0x100006EED	0x00000004	[  9] literal string: aim
+0x100006EF1	0x00000008	[  9] literal string: setAim:
+0x100006EF9	0x00000009	[  9] literal string: setSort:
+0x100006F02	0x00000008	[  9] literal string: suggest
+0x100006F0A	0x0000000C	[  9] literal string: setSuggest:
+0x100006F16	0x00000007	[  9] literal string: report
+0x100006F1D	0x0000000B	[  9] literal string: setReport:
+0x100006F28	0x0000000A	[  9] literal string: setArgue:
+0x100006F32	0x00000005	[  9] literal string: mark
+0x100006F37	0x00000009	[  9] literal string: setMark:
+0x100006F40	0x00000005	[  9] literal string: _cry
+0x100006F45	0x00000005	[  9] literal string: _run
+0x100006F4A	0x00000005	[  9] literal string: _fit
+0x100006F4F	0x00000007	[  9] literal string: _shoot
+0x100006F56	0x00000008	[  9] literal string: _report
+0x100006F5E	0x00000009	[  9] literal string: _toBreak
+0x100006F67	0x00000007	[  9] literal string: _clean
+0x100006F6E	0x0000000A	[  9] literal string: _describe
+0x100006F78	0x00000007	[  9] literal string: _visit
+0x100006F7F	0x00000005	[  9] literal string: _cut
+0x100006F84	0x00000009	[  9] literal string: _survive
+0x100006F8D	0x00000006	[  9] literal string: _come
+0x100006F93	0x00000008	[  9] literal string: _happen
+0x100006F9B	0x00000007	[  9] literal string: _enjoy
+0x100006FA2	0x00000008	[  9] literal string: _expect
+0x100006FAA	0x00000008	[  9] literal string: _charge
+0x100006FB2	0x00000007	[  9] literal string: _exist
+0x100006FB9	0x00000009	[  9] literal string: _realize
+0x100006FC2	0x00000005	[  9] literal string: _aim
+0x100006FC7	0x00000006	[  9] literal string: _sort
+0x100006FCD	0x00000009	[  9] literal string: _suggest
+0x100006FD6	0x00000007	[  9] literal string: _knock
+0x100006FDD	0x00000007	[  9] literal string: _argue
+0x100006FE4	0x00000006	[  9] literal string: _mark
+0x100006FEA	0x00000008	[  2] literal string: v16@0:8
+0x100006FF2	0x0000000B	[  3] literal string: B24@0:8@16
+0x100006FFD	0x00000008	[  3] literal string: #16@0:8
+0x100007005	0x00000008	[  3] literal string: @16@0:8
+0x10000700D	0x0000000B	[  3] literal string: @24@0:8:16
+0x100007018	0x0000000E	[  3] literal string: @32@0:8:16@24
+0x100007026	0x00000011	[  3] literal string: @40@0:8:16@24@32
+0x100007037	0x00000008	[  3] literal string: B16@0:8
+0x10000703F	0x0000000B	[  3] literal string: B24@0:8#16
+0x10000704A	0x0000000B	[  3] literal string: B24@0:8:16
+0x100007055	0x00000009	[  3] literal string: Vv16@0:8
+0x10000705E	0x00000008	[  3] literal string: Q16@0:8
+0x100007066	0x00000012	[  3] literal string: ^{_NSZone=}16@0:8
+0x100007078	0x00000015	[  3] literal string: B24@0:8@"Protocol"16
+0x10000708D	0x00000012	[  3] literal string: @"NSString"16@0:8
+0x10000709F	0x0000000B	[  3] literal string: v24@0:8@16
+0x1000070AA	0x0000000E	[  3] literal string: B32@0:8@16@24
+0x1000070B8	0x00000014	[  3] literal string: B48@0:8@16@24@32@40
+0x1000070CC	0x00000011	[  3] literal string: B40@0:8@16@24@32
+0x1000070DD	0x00000011	[  3] literal string: v40@0:8@16q24d32
+0x1000070EE	0x0000000E	[  3] literal string: v32@0:8@16q24
+0x1000070FC	0x0000002D	[  3] literal string: v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+0x100007129	0x0000000E	[  3] literal string: v32@0:8@16@24
+0x100007137	0x00000015	[  3] literal string: v48@0:8@16@24@32@?40
+0x10000714C	0x00000018	[  3] literal string: v56@0:8@16@24@32@40@?48
+0x100007164	0x00000012	[  3] literal string: v40@0:8@16@24@?32
+0x100007176	0x0000000F	[  3] literal string: v32@0:8@16@?24
+0x100007185	0x0000000E	[  3] literal string: @32@0:8@16@24
+0x100007193	0x0000000E	[  3] literal string: Q32@0:8@16@24
+0x1000071A1	0x00000011	[  3] literal string: @40@0:8@16@24@32
+0x1000071B2	0x00000012	[  3] literal string: B40@0:8@16@24@?32
+0x1000071C4	0x00000011	[  3] literal string: v40@0:8@16@24@32
+0x1000071D5	0x0000001A	[  3] literal string: v24@0:8@"UIApplication"16
+0x1000071EF	0x0000002B	[  3] literal string: B32@0:8@"UIApplication"16@"NSDictionary"24
+0x10000721A	0x00000024	[  3] literal string: B32@0:8@"UIApplication"16@"NSURL"24
+0x10000723E	0x00000034	[  3] literal string: B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+0x100007272	0x00000035	[  3] literal string: B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+0x1000072A7	0x00000020	[  3] literal string: v40@0:8@"UIApplication"16q24d32
+0x1000072C7	0x0000001D	[  3] literal string: v32@0:8@"UIApplication"16q24
+0x1000072E4	0x0000003C	[  3] literal string: v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24
+0x100007320	0x00000039	[  3] literal string: v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+0x100007359	0x00000025	[  3] literal string: v32@0:8@"UIApplication"16@"NSData"24
+0x10000737E	0x00000026	[  3] literal string: v32@0:8@"UIApplication"16@"NSError"24
+0x1000073A4	0x0000002B	[  3] literal string: v32@0:8@"UIApplication"16@"NSDictionary"24
+0x1000073CF	0x00000032	[  3] literal string: v32@0:8@"UIApplication"16@"UILocalNotification"24
+0x100007401	0x00000048	[  3] literal string: v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40
+0x100007449	0x00000052	[  3] literal string: v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@?>48
+0x10000749B	0x00000041	[  3] literal string: v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40
+0x1000074DC	0x00000059	[  3] literal string: v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"40@?<v@?>48
+0x100007535	0x00000035	[  3] literal string: v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+0x10000756A	0x00000024	[  3] literal string: v32@0:8@"UIApplication"16@?<v@?Q>24
+0x10000758E	0x00000042	[  3] literal string: v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+0x1000075D0	0x00000030	[  3] literal string: v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+0x100007600	0x00000043	[  3] literal string: v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32
+0x100007643	0x00000027	[  3] literal string: @32@0:8@"UIApplication"16@"INIntent"24
+0x10000766A	0x00000043	[  3] literal string: v40@0:8@"UIApplication"16@"INIntent"24@?<v@?@"INIntentResponse">32
+0x1000076AD	0x00000027	[  3] literal string: Q32@0:8@"UIApplication"16@"UIWindow"24
+0x1000076D4	0x00000027	[  3] literal string: B32@0:8@"UIApplication"16@"NSString"24
+0x1000076FB	0x00000044	[  3] literal string: @"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32
+0x10000773F	0x00000026	[  3] literal string: B32@0:8@"UIApplication"16@"NSCoder"24
+0x100007765	0x00000026	[  3] literal string: v32@0:8@"UIApplication"16@"NSCoder"24
+0x10000778B	0x00000040	[  3] literal string: B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+0x1000077CB	0x00000033	[  3] literal string: v40@0:8@"UIApplication"16@"NSString"24@"NSError"32
+0x1000077FE	0x0000002D	[  3] literal string: v32@0:8@"UIApplication"16@"NSUserActivity"24
+0x10000782B	0x0000002E	[  3] literal string: v32@0:8@"UIApplication"16@"CKShareMetadata"24
+0x100007859	0x00000060	[  3] literal string: @"UISceneConfiguration"40@0:8@"UIApplication"16@"UISceneSession"24@"UISceneConnectionOptions"32
+0x1000078B9	0x00000024	[  3] literal string: v32@0:8@"UIApplication"16@"NSSet"24
+0x1000078DD	0x00000012	[  3] literal string: @"UIWindow"16@0:8
+0x1000078EF	0x00000015	[  3] literal string: v24@0:8@"UIWindow"16
+0x100007904	0x0000000C	[  4] literal string: @"UIButton"
+0x100007910	0x0000000B	[  9] literal string: v24@0:8Q16
+0x10000791B	0x0000000C	[  9] literal string: v24@0:8@?16
+0x100007927	0x0000000E	[  9] literal string: v32@0:8q16@24
+0x100007935	0x00000008	[  9] literal string: q16@0:8
+0x10000793D	0x0000000B	[  9] literal string: v24@0:8q16
+0x100007948	0x0000000B	[  9] literal string: v20@0:8B16
+0x100007953	0x0000000C	[  9] literal string: @"NSString"
+0x10000795F	0x0000000C	[  9] literal string: @"Consider"
+0x10000796B	0x00000002	[  9] literal string: B
+0x10000796D	0x00000012	[  9] literal string: @"NSMutableArray"
+0x10000797F	0x00000002	[  9] literal string: q
+0x100007981	0x00000010	[  9] literal string: @"NSDictionary"
+0x100007991	0x0000000B	[  9] literal string: @"UILabel"
+0x10000799C	0x00000007	[  9] literal string: @"Add"
+0x1000079A3	0x00000008	[  9] literal string: @"Walk"
+0x1000079AB	0x0000001B	[  9] literal string: @"NSString<Discover><Pay>"
+0x1000079C6	0x0000001A	[  9] literal string: @"UITapGestureRecognizer"
+0x1000079E0	0x00000002	[  9] literal string: Q
+0x1000079E2	0x00000005	[  3] literal string: 2345
+0x1000079E7	0x00000004	[  3] literal string: 222
+0x1000079EB	0x00000016	[  3] literal string: Default Configuration
+0x100007A01	0x00000005	[  3] literal string: hash
+0x100007A06	0x00000005	[  3] literal string: TQ,R
+0x100007A0B	0x0000000B	[  3] literal string: superclass
+0x100007A16	0x00000005	[  3] literal string: T#,R
+0x100007A1B	0x0000000C	[  3] literal string: description
+0x100007A27	0x00000011	[  3] literal string: T@"NSString",R,C
+0x100007A38	0x00000011	[  3] literal string: debugDescription
+0x100007A49	0x00000007	[  3] literal string: window
+0x100007A50	0x00000011	[  3] literal string: T@"UIWindow",&,N
+0x100007A61	0x00000006	[  4] literal string: prove
+0x100007A67	0x00000019	[  4] literal string: T@"UIButton",W,N,V_prove
+0x100007A80	0x00000004	[  8] literal string: 666
+0x100007A84	0x00000005	[  9] literal string: 1111
+0x100007A89	0x00000005	[  9] literal string: 1234
+0x100007A8E	0x00000004	[  9] literal string: 000
+0x100007A92	0x00000004	[  9] literal string: 777
+0x100007A96	0x00000004	[  9] literal string: 123
+0x100007A9A	0x00000004	[  9] literal string: 111
+0x100007A9E	0x00000004	[  9] literal string: 789
+0x100007AA2	0x00000004	[  9] literal string: 798
+0x100007AA6	0x00000006	[  9] literal string: %@,%@
+0x100007AAC	0x0000000C	[  9] literal string: hello world
+0x100007AB8	0x00000007	[  9] literal string: 123123
+0x100007ABF	0x00000019	[  9] literal string: @"Consider"16@?0@"Walk"8
+0x100007AD8	0x00000006	[  9] literal string: libai
+0x100007ADE	0x00000006	[  9] literal string: study
+0x100007AE4	0x00000011	[  9] literal string: T@"NSString",&,N
+0x100007AF5	0x00000004	[  9] literal string: run
+0x100007AF9	0x00000017	[  9] literal string: T@"Consider",&,N,V_run
+0x100007B10	0x00000008	[  9] literal string: survive
+0x100007B18	0x0000001B	[  9] literal string: T@"NSString",&,N,V_survive
+0x100007B33	0x00000005	[  9] literal string: come
+0x100007B38	0x00000018	[  9] literal string: T@"Consider",&,N,V_come
+0x100007B50	0x00000007	[  9] literal string: happen
+0x100007B57	0x0000001E	[  9] literal string: T@"NSDictionary",&,N,V_happen
+0x100007B75	0x00000006	[  9] literal string: clean
+0x100007B7B	0x00000019	[  9] literal string: T@"NSString",&,N,V_clean
+0x100007B94	0x00000006	[  9] literal string: enjoy
+0x100007B9A	0x00000018	[  9] literal string: T@"UILabel",W,N,V_enjoy
+0x100007BB2	0x00000007	[  9] literal string: expect
+0x100007BB9	0x00000015	[  9] literal string: T@"Add",W,N,V_expect
+0x100007BCE	0x00000007	[  9] literal string: supply
+0x100007BD5	0x00000017	[  9] literal string: T@"NSString",&,N,V_cry
+0x100007BEC	0x00000007	[  9] literal string: charge
+0x100007BF3	0x00000016	[  9] literal string: T@"Walk",&,N,V_charge
+0x100007C09	0x00000008	[  9] literal string: toBreak
+0x100007C11	0x0000001B	[  9] literal string: T@"NSString",&,N,V_toBreak
+0x100007C2C	0x00000006	[  9] literal string: apply
+0x100007C32	0x00000018	[  9] literal string: T@"NSString",&,N,Vapply
+0x100007C4A	0x00000005	[  9] literal string: kick
+0x100007C4F	0x00000013	[  9] literal string: T@"NSString",&,D,N
+0x100007C62	0x00000006	[  9] literal string: exist
+0x100007C68	0x0000001F	[  9] literal string: T@"NSMutableArray",&,N,V_exist
+0x100007C87	0x00000008	[  9] literal string: realize
+0x100007C8F	0x00000021	[  9] literal string: T@"NSMutableArray",&,N,V_realize
+0x100007CB0	0x00000004	[  9] literal string: aim
+0x100007CB4	0x00000026	[  9] literal string: T@"NSString<Discover><Pay>",&,N,V_aim
+0x100007CDA	0x00000005	[  9] literal string: sort
+0x100007CDF	0x00000027	[  9] literal string: T@"NSString<Discover><Pay>",&,N,V_sort
+0x100007D06	0x00000008	[  9] literal string: suggest
+0x100007D0E	0x00000029	[  9] literal string: T@"UITapGestureRecognizer",&,N,V_suggest
+0x100007D37	0x00000007	[  9] literal string: record
+0x100007D3E	0x00000019	[  9] literal string: T@"NSString",&,N,V_shoot
+0x100007D57	0x00000006	[  9] literal string: knock
+0x100007D5D	0x0000000D	[  9] literal string: TQ,N,V_knock
+0x100007D6A	0x00000007	[  9] literal string: report
+0x100007D71	0x00000016	[  9] literal string: TB,N,Greport,V_report
+0x100007D87	0x00000006	[  9] literal string: argue
+0x100007D8D	0x00000024	[  9] literal string: T@"NSString",&,N,SsetArgue:,V_argue
+0x100007DB1	0x00000005	[  9] literal string: mark
+0x100007DB6	0x00000018	[  9] literal string: T@"NSString",&,N,V_mark
+0x100007DCE	0x00000009	[  9] literal string: describe
+0x100007DD7	0x0000001C	[  9] literal string: T@"NSString",&,N,V_describe
+0x100007DF3	0x00000006	[  9] literal string: visit
+0x100007DF9	0x0000001F	[  9] literal string: T@"NSMutableArray",&,N,V_visit
+0x100007E18	0x00000004	[  9] literal string: cut
+0x100007E1C	0x0000000B	[  9] literal string: Tq,N,V_cut
+0x100007E27	0x00000186	[  1] opaque_section
+0x100007FB0	0x00000048	[  0] compact unwind info
+0x100008000	0x00000008	[  0] non-lazy-pointer-to-local: _objc_msgSend
+0x100008008	0x00000008	[  0] non-lazy-pointer-to-local: _objc_release
+0x100008010	0x00000008	[  0] non-lazy-pointer-to-local: _objc_retain
+0x100008018	0x00000008	[  0] non-lazy-pointer-to-local: dyld_stub_binder
+0x100008020	0x00000020	[  9] ___block_descriptor_32_e24_"Consider"16?0"Walk"8l
+0x100008040	0x00000020	[  9] ___block_literal_global
+0x100008060	0x00000020	[  3] CFString
+0x100008080	0x00000020	[  3] CFString
+0x1000080A0	0x00000020	[  3] CFString
+0x1000080C0	0x00000020	[  8] CFString
+0x1000080E0	0x00000020	[  9] CFString
+0x100008100	0x00000020	[  9] CFString
+0x100008120	0x00000020	[  9] CFString
+0x100008140	0x00000020	[  9] CFString
+0x100008160	0x00000020	[  9] CFString
+0x100008180	0x00000020	[  9] CFString
+0x1000081A0	0x00000020	[  9] CFString
+0x1000081C0	0x00000020	[  9] CFString
+0x1000081E0	0x00000020	[  9] CFString
+0x100008200	0x00000020	[  9] CFString
+0x100008220	0x00000020	[  9] CFString
+0x100008240	0x00000020	[  9] CFString
+0x100008260	0x00000008	[  3] objc-cat-list
+0x100008268	0x00000008	[  4] objc-cat-list
+0x100008270	0x00000008	[  5] objc-cat-list
+0x100008278	0x00000008	[  6] objc-cat-list
+0x100008280	0x00000008	[  8] objc-cat-list
+0x100008288	0x00000008	[  9] objc-cat-list
+0x100008290	0x00000008	[  2] objc-cat-list
+0x100008298	0x00000008	[  3] __OBJC_LABEL_PROTOCOL_$_NSObject
+0x1000082A0	0x00000008	[  3] __OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+0x1000082A8	0x00000008	[  9] __OBJC_LABEL_PROTOCOL_$_Pay
+0x1000082B0	0x00000008	[  0] objc image info
+0x10000C000	0x00000008	[ 10] _NSLog
+0x10000C008	0x00000008	[ 10] _NSStringFromClass
+0x10000C010	0x00000008	[ 12] _UIApplicationMain
+0x10000C018	0x00000008	[ 11] _objc_alloc
+0x10000C020	0x00000008	[ 11] _objc_alloc_init
+0x10000C028	0x00000008	[ 11] _objc_autoreleasePoolPop
+0x10000C030	0x00000008	[ 11] _objc_autoreleasePoolPush
+0x10000C038	0x00000008	[ 11] _objc_autoreleaseReturnValue
+0x10000C040	0x00000008	[ 11] _objc_destroyWeak
+0x10000C048	0x00000008	[ 11] _objc_loadWeakRetained
+0x10000C050	0x00000008	[ 11] _objc_msgSendSuper2
+0x10000C058	0x00000008	[ 11] _objc_opt_class
+0x10000C060	0x00000008	[ 11] _objc_opt_new
+0x10000C068	0x00000008	[ 11] _objc_retainAutoreleaseReturnValue
+0x10000C070	0x00000008	[ 11] _objc_retainAutoreleasedReturnValue
+0x10000C078	0x00000008	[ 11] _objc_retainBlock
+0x10000C080	0x00000008	[ 11] _objc_storeStrong
+0x10000C088	0x00000008	[ 11] _objc_storeWeak
+0x10000C090	0x00000008	[ 11] _objc_unsafeClaimAutoreleasedReturnValue
+0x10000C098	0x00000020	[  2] __OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_Thank
+0x10000C0B8	0x00000040	[  2] __OBJC_$_CATEGORY_NSArray_$_Thank
+0x10000C0F8	0x000001D0	[  3] __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+0x10000C2C8	0x00000020	[  3] __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0x10000C2E8	0x00000048	[  3] __OBJC_$_PROP_LIST_NSObject
+0x10000C330	0x000000A0	[  3] __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0x10000C3D0	0x00000018	[  3] __OBJC_$_PROTOCOL_REFS_UIApplicationDelegate
+0x10000C3E8	0x00000518	[  3] __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIApplicationDelegate
+0x10000C900	0x00000018	[  3] __OBJC_$_PROP_LIST_UIApplicationDelegate
+0x10000C918	0x000001B0	[  3] __OBJC_$_PROTOCOL_METHOD_TYPES_UIApplicationDelegate
+0x10000CAC8	0x00000018	[  3] __OBJC_CLASS_PROTOCOLS_$_Walk
+0x10000CAE0	0x00000048	[  3] __OBJC_METACLASS_RO_$_Walk
+0x10000CB28	0x00000068	[  3] __OBJC_$_INSTANCE_METHODS_Walk
+0x10000CB90	0x00000058	[  3] __OBJC_$_PROP_LIST_Walk
+0x10000CBE8	0x00000048	[  3] __OBJC_CLASS_RO_$_Walk
+0x10000CC30	0x00000048	[  4] __OBJC_METACLASS_RO_$_Kick
+0x10000CC78	0x000000B0	[  4] __OBJC_$_INSTANCE_METHODS_Kick
+0x10000CD28	0x00000028	[  4] __OBJC_$_INSTANCE_VARIABLES_Kick
+0x10000CD50	0x00000018	[  4] __OBJC_$_PROP_LIST_Kick
+0x10000CD68	0x00000048	[  4] __OBJC_CLASS_RO_$_Kick
+0x10000CDB0	0x00000048	[  5] __OBJC_METACLASS_RO_$_Describe
+0x10000CDF8	0x00000048	[  5] __OBJC_CLASS_RO_$_Describe
+0x10000CE40	0x00000048	[  6] __OBJC_METACLASS_RO_$_Add
+0x10000CE88	0x00000048	[  6] __OBJC_CLASS_RO_$_Add
+0x10000CED0	0x00000048	[  8] __OBJC_METACLASS_RO_$_Consist
+0x10000CF18	0x00000020	[  8] __OBJC_$_INSTANCE_METHODS_Consist
+0x10000CF38	0x00000048	[  8] __OBJC_CLASS_RO_$_Consist
+0x10000CF80	0x000001D0	[  9] __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+0x10000D150	0x00000020	[  9] __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0x10000D170	0x00000048	[  9] __OBJC_$_PROP_LIST_NSObject
+0x10000D1B8	0x000000A0	[  9] __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0x10000D258	0x00000018	[  9] __OBJC_$_PROTOCOL_REFS_Pay
+0x10000D270	0x00000068	[  9] __OBJC_$_PROTOCOL_INSTANCE_METHODS_Pay
+0x10000D2D8	0x00000020	[  9] __OBJC_$_PROTOCOL_METHOD_TYPES_Pay
+0x10000D2F8	0x00000020	[  9] __OBJC_$_CLASS_METHODS_Consider
+0x10000D318	0x00000018	[  9] __OBJC_CLASS_PROTOCOLS_$_Consider
+0x10000D330	0x00000018	[  9] __OBJC_$_CLASS_PROP_LIST_Consider
+0x10000D348	0x00000048	[  9] __OBJC_METACLASS_RO_$_Consider
+0x10000D390	0x000005F0	[  9] __OBJC_$_INSTANCE_METHODS_Consider
+0x10000D980	0x00000348	[  9] __OBJC_$_INSTANCE_VARIABLES_Consider
+0x10000DCC8	0x000001E8	[  9] __OBJC_$_PROP_LIST_Consider
+0x10000DEB0	0x00000048	[  9] __OBJC_CLASS_RO_$_Consider
+0x10000DEF8	0x00000008	[  3] pointer-to-literal-cstring
+0x10000DF00	0x00000008	[  3] pointer-to-literal-cstring
+0x10000DF08	0x00000008	[  3] pointer-to-literal-cstring
+0x10000DF10	0x00000008	[  3] pointer-to-literal-cstring
+0x10000DF18	0x00000008	[  3] pointer-to-literal-cstring
+0x10000DF20	0x00000008	[  3] pointer-to-literal-cstring
+0x10000DF28	0x00000008	[  4] pointer-to-literal-cstring
+0x10000DF30	0x00000008	[  4] pointer-to-literal-cstring
+0x10000DF38	0x00000008	[  4] pointer-to-literal-cstring
+0x10000DF40	0x00000008	[  4] pointer-to-literal-cstring
+0x10000DF48	0x00000008	[  4] pointer-to-literal-cstring
+0x10000DF50	0x00000008	[  8] pointer-to-literal-cstring
+0x10000DF58	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF60	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF68	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF70	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF78	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF80	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF88	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF90	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DF98	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFA0	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFA8	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFB0	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFB8	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFC0	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFC8	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFD0	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFD8	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFE0	0x00000008	[  9] pointer-to-literal-cstring
+0x10000DFE8	0x00000008	[  9] __OBJC_PROTOCOL_REFERENCE_$_Pay
+0x10000DFF0	0x00000008	[  3] objc-class-ref
+0x10000DFF8	0x00000008	[  3] objc-class-ref
+0x10000E000	0x00000008	[  3] objc-class-ref
+0x10000E008	0x00000008	[  4] objc-class-ref
+0x10000E010	0x00000008	[  4] objc-class-ref
+0x10000E018	0x00000008	[  7] objc-class-ref
+0x10000E020	0x00000008	[  9] objc-class-ref
+0x10000E028	0x00000008	[  4] anon
+0x10000E030	0x00000008	[  8] anon
+0x10000E038	0x00000008	[  9] anon
+0x10000E040	0x00000008	[  4] _OBJC_IVAR_$_Kick._prove
+0x10000E048	0x00000008	[  9] _OBJC_IVAR_$_Consider._clean
+0x10000E050	0x00000008	[  9] _OBJC_IVAR_$_Consider._shoot
+0x10000E058	0x00000008	[  9] _OBJC_IVAR_$_Consider._come
+0x10000E060	0x00000008	[  9] _OBJC_IVAR_$_Consider._knock
+0x10000E068	0x00000008	[  9] _OBJC_IVAR_$_Consider._toBreak
+0x10000E070	0x00000008	[  9] _OBJC_IVAR_$_Consider._cry
+0x10000E078	0x00000008	[  9] _OBJC_IVAR_$_Consider.apply
+0x10000E080	0x00000008	[  9] _OBJC_IVAR_$_Consider._describe
+0x10000E088	0x00000008	[  9] _OBJC_IVAR_$_Consider._visit
+0x10000E090	0x00000008	[  9] _OBJC_IVAR_$_Consider._cut
+0x10000E098	0x00000008	[  9] _OBJC_IVAR_$_Consider._run
+0x10000E0A0	0x00000008	[  9] _OBJC_IVAR_$_Consider._survive
+0x10000E0A8	0x00000008	[  9] _OBJC_IVAR_$_Consider._happen
+0x10000E0B0	0x00000008	[  9] _OBJC_IVAR_$_Consider._prove
+0x10000E0B8	0x00000008	[  9] _OBJC_IVAR_$_Consider._enjoy
+0x10000E0C0	0x00000008	[  9] _OBJC_IVAR_$_Consider._expect
+0x10000E0C8	0x00000008	[  9] _OBJC_IVAR_$_Consider._charge
+0x10000E0D0	0x00000008	[  9] _OBJC_IVAR_$_Consider._exist
+0x10000E0D8	0x00000008	[  9] _OBJC_IVAR_$_Consider._realize
+0x10000E0E0	0x00000008	[  9] _OBJC_IVAR_$_Consider._aim
+0x10000E0E8	0x00000008	[  9] _OBJC_IVAR_$_Consider._sort
+0x10000E0F0	0x00000008	[  9] _OBJC_IVAR_$_Consider._suggest
+0x10000E0F8	0x00000008	[  9] _OBJC_IVAR_$_Consider._report
+0x10000E100	0x00000008	[  9] _OBJC_IVAR_$_Consider._argue
+0x10000E108	0x00000008	[  9] _OBJC_IVAR_$_Consider._mark
+0x10000E110	0x00000008	[  9] _OBJC_IVAR_$_Consider._fit
+0x10000E118	0x00000028	[  3] _OBJC_METACLASS_$_Walk
+0x10000E140	0x00000028	[  3] _OBJC_CLASS_$_Walk
+0x10000E168	0x00000028	[  4] _OBJC_CLASS_$_Kick
+0x10000E190	0x00000028	[  4] _OBJC_METACLASS_$_Kick
+0x10000E1B8	0x00000028	[  5] _OBJC_METACLASS_$_Describe
+0x10000E1E0	0x00000028	[  5] _OBJC_CLASS_$_Describe
+0x10000E208	0x00000028	[  6] _OBJC_METACLASS_$_Add
+0x10000E230	0x00000028	[  6] _OBJC_CLASS_$_Add
+0x10000E258	0x00000028	[  8] _OBJC_CLASS_$_Consist
+0x10000E280	0x00000028	[  8] _OBJC_METACLASS_$_Consist
+0x10000E2A8	0x00000028	[  9] _OBJC_CLASS_$_Consider
+0x10000E2D0	0x00000028	[  9] _OBJC_METACLASS_$_Consider
+0x10000E2F8	0x00000008	[  0] __dyld_private
+0x10000E300	0x00000060	[  3] __OBJC_PROTOCOL_$_NSObject
+0x10000E360	0x00000060	[  3] __OBJC_PROTOCOL_$_UIApplicationDelegate
+0x10000E3C0	0x00000060	[  9] __OBJC_PROTOCOL_$_Pay
+
+# Dead Stripped Symbols:
+#        	Size    	File  Name
+<<dead>> 	0x00000018	[  2] CIE
+<<dead>> 	0x00000008	[  3] literal string: v16@0:8
+<<dead>> 	0x00000018	[  3] CIE
+<<dead>> 	0x00000008	[  4] literal string: publish
+<<dead>> 	0x00000004	[  4] literal string: act
+<<dead>> 	0x0000000B	[  4] literal string: v24@0:8@16
+<<dead>> 	0x00000008	[  4] literal string: v16@0:8
+<<dead>> 	0x00000008	[  4] literal string: @16@0:8
+<<dead>> 	0x00000018	[  4] CIE
+<<dead>> 	0x00000018	[  7] CIE
+<<dead>> 	0x0000000C	[  8] literal string: viewDidLoad
+<<dead>> 	0x00000008	[  8] literal string: v16@0:8
+<<dead>> 	0x00000018	[  8] CIE
+<<dead>> 	0x0000000C	[  9] literal string: viewDidLoad
+<<dead>> 	0x00000011	[  9] literal string: performSelector:
+<<dead>> 	0x0000000C	[  9] literal string: look:shall:
+<<dead>> 	0x00000009	[  9] literal string: isEqual:
+<<dead>> 	0x00000006	[  9] literal string: class
+<<dead>> 	0x00000005	[  9] literal string: self
+<<dead>> 	0x0000001C	[  9] literal string: performSelector:withObject:
+<<dead>> 	0x00000027	[  9] literal string: performSelector:withObject:withObject:
+<<dead>> 	0x00000008	[  9] literal string: isProxy
+<<dead>> 	0x0000000F	[  9] literal string: isKindOfClass:
+<<dead>> 	0x00000011	[  9] literal string: isMemberOfClass:
+<<dead>> 	0x00000014	[  9] literal string: conformsToProtocol:
+<<dead>> 	0x00000014	[  9] literal string: respondsToSelector:
+<<dead>> 	0x00000007	[  9] literal string: retain
+<<dead>> 	0x00000008	[  9] literal string: release
+<<dead>> 	0x0000000C	[  9] literal string: autorelease
+<<dead>> 	0x0000000C	[  9] literal string: retainCount
+<<dead>> 	0x00000005	[  9] literal string: zone
+<<dead>> 	0x00000005	[  9] literal string: hash
+<<dead>> 	0x0000000B	[  9] literal string: superclass
+<<dead>> 	0x0000000C	[  9] literal string: description
+<<dead>> 	0x00000011	[  9] literal string: debugDescription
+<<dead>> 	0x0000000D	[  9] literal string: setDescribe:
+<<dead>> 	0x0000000A	[  9] literal string: setVisit:
+<<dead>> 	0x00000006	[  9] literal string: prove
+<<dead>> 	0x0000000A	[  9] literal string: setProve:
+<<dead>> 	0x0000000E	[  9] literal string: .cxx_destruct
+<<dead>> 	0x00000007	[  9] literal string: _prove
+<<dead>> 	0x00000005	[  9] literal string: hash
+<<dead>> 	0x00000005	[  9] literal string: TQ,R
+<<dead>> 	0x0000000B	[  9] literal string: superclass
+<<dead>> 	0x00000005	[  9] literal string: T#,R
+<<dead>> 	0x0000000C	[  9] literal string: description
+<<dead>> 	0x00000011	[  9] literal string: T@"NSString",R,C
+<<dead>> 	0x00000011	[  9] literal string: debugDescription
+<<dead>> 	0x00000006	[  9] literal string: prove
+<<dead>> 	0x00000019	[  9] literal string: T@"UIButton",W,N,V_prove
+<<dead>> 	0x00000009	[  9] literal string: NSObject
+<<dead>> 	0x0000000B	[  9] literal string: B24@0:8@16
+<<dead>> 	0x00000008	[  9] literal string: #16@0:8
+<<dead>> 	0x00000008	[  9] literal string: @16@0:8
+<<dead>> 	0x0000000B	[  9] literal string: @24@0:8:16
+<<dead>> 	0x0000000E	[  9] literal string: @32@0:8:16@24
+<<dead>> 	0x00000011	[  9] literal string: @40@0:8:16@24@32
+<<dead>> 	0x00000008	[  9] literal string: B16@0:8
+<<dead>> 	0x0000000B	[  9] literal string: B24@0:8#16
+<<dead>> 	0x0000000B	[  9] literal string: B24@0:8:16
+<<dead>> 	0x00000009	[  9] literal string: Vv16@0:8
+<<dead>> 	0x00000008	[  9] literal string: Q16@0:8
+<<dead>> 	0x00000012	[  9] literal string: ^{_NSZone=}16@0:8
+<<dead>> 	0x00000015	[  9] literal string: B24@0:8@"Protocol"16
+<<dead>> 	0x00000012	[  9] literal string: @"NSString"16@0:8
+<<dead>> 	0x00000008	[  9] literal string: v16@0:8
+<<dead>> 	0x0000000B	[  9] literal string: v24@0:8@16
+<<dead>> 	0x0000000E	[  9] literal string: v32@0:8@16q24
+<<dead>> 	0x0000000E	[  9] literal string: v32@0:8@16@24
+<<dead>> 	0x0000000C	[  9] literal string: @"UIButton"
+<<dead>> 	0x00000018	[  9] CIE
+<<dead>> 	0x00000008	[  9] _g_demoVC
