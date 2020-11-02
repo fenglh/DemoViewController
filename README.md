@@ -40,3 +40,32 @@
     [self give:@"111" see:22];//接受者class 是self
     [[self class] sound];//接受者class 是表达式
 ```
+
+```
+#define metamacro_concat(A, B) A ## B
+
+
+
+#define CallMethod(NAME, COUNT, PRODUCTID)\
+{\
+    int i = 0;\
+    [self call  /*我是注释*/## NAME##Request:COUNT productId:PRODUCTID];\
+    [self push  /*我是注释*/## NAME:COUNT productId:PRODUCTID];\
+    [self push  ##   NAME:COUNT productId:PRODUCTID];\
+    [self metamacro_concat(push, NAME):COUNT productId:PRODUCTID];\
+    self.NAME=@"1234";\
+}\
+
+
+
+
+#define CallMethod2(NAME, COUNT, PRODUCTID)\
+{\
+    int i = 0;\
+    [self metamacro_concat(push,NAME):COUNT productId:PRODUCTID];\
+}\
+
+
+#define COMMAND(NAME)  { #NAME, NAME ## _command }
+
+```
