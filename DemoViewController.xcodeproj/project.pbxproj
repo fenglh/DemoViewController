@@ -66,6 +66,7 @@
 		DB412A5D2517B661003DC582 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DB66F8D0248DE5D500C18B4F /* DemoViewController.m */,
 				DB412A71251AD61B003DC582 /* My.storyboard */,
 				DB412A72251AD61B003DC582 /* MyViewController.h */,
 				DB412A70251AD61B003DC582 /* MyViewController.m */,
@@ -97,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				DB66F8CF248DE5D500C18B4F /* DemoViewController.h */,
-				DB66F8D0248DE5D500C18B4F /* DemoViewController.m */,
 				DB219B2A24CFBD950072D03C /* SubDemoViewController.h */,
 				DB219B2B24CFBD950072D03C /* SubDemoViewController.m */,
 				DB66F8D1248DE5D500C18B4F /* DemoViewController.xib */,

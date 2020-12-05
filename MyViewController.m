@@ -13,6 +13,7 @@
 
 @interface MyViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *myButton;
+@property (readonly, nonatomic, getter = isNetworkActivityOccurring) BOOL networkActivityOccurring;
 
 @end
 
@@ -22,11 +23,23 @@
 - (IBAction)touchDown:(id)sender {
 }
 
+- (BOOL)isNetworkActivityOccurring {
+    @synchronized(self) {
+        return YES;
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     Succeed *appdelegate = (Succeed *)[UIApplication sharedApplication].delegate;
     [appdelegate testAAA];
     [[[NSArray alloc] init] wish];
+    if (self.networkActivityOccurring) {
+        NSLog(@"-1--");
+    }
+    if (self.isNetworkActivityOccurring) {
+        NSLog(@"-2--");
+    }
 }
 
 /*
