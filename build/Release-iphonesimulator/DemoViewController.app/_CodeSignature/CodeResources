@@ -4,41 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<data>
-		Fz0Um3JZylhSw1yP47xgHnQ1f1k=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<data>
-		n2t8gsDpfE6XkhG31p7IQJRxTxU=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<data>
-		p6fpxX/osVmHz7M2jIf1r2WWbOs=
-		</data>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<data>
-		9tyYgghjAHyOU6jHrph4CL8sWPk=
-		</data>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<data>
-		MDrKFvFWroTb0+KEbQShBcoBvo4=
-		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<data>
-		s+c3MD3I5H1O4abbAUJr4wzjn/c=
-		</data>
-		<key>DemoViewController.nib</key>
-		<data>
-		p2MCPi1BTgZ0hJh1Az76RM9sjVc=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		eChXXFu08V6a58xexBA6Ww68gE8=
-		</data>
-		<key>My.storyboardc/Info.plist</key>
-		<data>
-		GnMdGFfDuvwAuWJN7FS9ELLozY4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -46,64 +14,7 @@
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6nct/95q5RKfNU7VxpbKQprWNRXyr+pDX4b+jUQurfI=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/ZeXZBq/q7Bo066pCkRWFFeuvmwi5FGJDPK1vvCT8NU=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vuua3IfiewqUg4ec889hlmimvYWuDcP+gCdTf6XFguI=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rkwTu/gdwOENHmcO2c32LBO5EYm6LlppjSqt2FMJ5hk=
-			</data>
-		</dict>
-		<key>DemoViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HOQ/5F+MIAL9JQ1mRVzS7pjAvHk23eZyGgLC0ZxSxec=
-			</data>
-		</dict>
-		<key>My.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
