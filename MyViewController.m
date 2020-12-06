@@ -34,9 +34,7 @@
     Succeed *appdelegate = (Succeed *)[UIApplication sharedApplication].delegate;
     [appdelegate testAAA];
     [[[NSArray alloc] init] wish];
-    if (self.networkActivityOccurring) {
-        NSLog(@"-1--");
-    }
+
     if (self.isNetworkActivityOccurring) {
         NSLog(@"-2--");
     }
